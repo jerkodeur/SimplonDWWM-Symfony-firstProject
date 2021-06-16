@@ -6,21 +6,20 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route('/about', name: 'about_')]
 class PageController extends AbstractController
 {
-    #[Route('/', name: 'home')]
+    #[Route('/about', name: 'about')]
     public function home(): Response
     {
-        return $this->render('page/index.html.twig', [
+        return $this->render('page/about.html.twig', [
             'controller_name' => 'PageController',
         ]);
     }
 
-    #[Route('/{id<\d+>}', name: 'view')]
-    public function view(int $id): Response
+    #[Route('/contact', name: 'contact')]
+    public function view(): Response
     {
-        return $this->render('page/view.html.twig', [
+        return $this->render('page/contact.html.twig', [
             'controller_name' => 'PageController'
         ]);
     }
