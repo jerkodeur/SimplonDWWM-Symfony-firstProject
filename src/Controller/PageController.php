@@ -9,16 +9,16 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route('/about', name: 'about_')]
 class PageController extends AbstractController
 {
-    #[Route('/', name: 'index')]
-    public function index(): Response
+    #[Route('/', name: 'home')]
+    public function home(): Response
     {
         return $this->render('page/index.html.twig', [
             'controller_name' => 'PageController',
         ]);
     }
 
-    #[Route('/{id<\d+>}', name: 'show')]
-    public function show(int $id): Response
+    #[Route('/{id<\d+>}', name: 'view')]
+    public function view(int $id): Response
     {
         return $this->render('page/index.html.twig', [
             'controller_name' => 'PageController',
