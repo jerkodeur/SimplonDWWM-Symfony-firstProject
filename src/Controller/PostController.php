@@ -20,7 +20,7 @@ class PostController extends AbstractController
     #[Route('/post/{id<\d+>}', name: 'view')]
     public function view(int $id): Response
     {
-        return $this->render('post/index.html.twig', [
+        return $this->render('post/view.html.twig', [
             'controller_name' => 'PostController',
         ]);
     }

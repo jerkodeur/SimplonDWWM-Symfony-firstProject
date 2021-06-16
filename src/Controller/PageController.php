@@ -20,7 +20,7 @@ class PageController extends AbstractController
     #[Route('/{id<\d+>}', name: 'view')]
     public function view(int $id): Response
     {
-        return $this->render('page/index.html.twig', [
+        return $this->render('page/view.html.twig', [
             'controller_name' => 'PageController',
         ]);
     }
