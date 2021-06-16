@@ -22,6 +22,7 @@ class PostController extends AbstractController
     {
         return $this->render('post/view.html.twig', [
             'controller_name' => 'PostController',
+            'id' => $id
         ]);
     }
 }

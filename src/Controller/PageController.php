@@ -21,7 +21,7 @@ class PageController extends AbstractController
     public function view(int $id): Response
     {
         return $this->render('page/view.html.twig', [
-            'controller_name' => 'PageController',
+            'controller_name' => 'PageController'
         ]);
     }
 }
