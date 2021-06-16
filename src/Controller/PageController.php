@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class PageController extends AbstractController
 {
     #[Route('/about', name: 'about')]
-    public function home(): Response
+    public function about(): Response
     {
         return $this->render('page/about.html.twig', [
             'controller_name' => 'PageController',
@@ -17,7 +17,7 @@ class PageController extends AbstractController
     }
 
     #[Route('/contact', name: 'contact')]
-    public function view(): Response
+    public function contact(): Response
     {
         return $this->render('page/contact.html.twig', [
             'controller_name' => 'PageController'
