@@ -14,9 +14,26 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class PostRepository extends ServiceEntityRepository
 {
+
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Post::class);
+    }
+
+    public function findOldPosts(int $nb = 5) {
+        $em = $this->getEntityManager();
+
+        $query = $em->createQuery(
+            'SELECT p.title, p.slug, p.content, p.image, p.created_at
+                FROM APP\ENTITY\POST p
+                WHERE p.active = :status
+                ORDER BY p.created_at
+                DESC LIMIT 3'
+        )
+        ->setParameter('status', true)
+        ->setMaxResults($nb); // limit request
+
+        return $query->getResult();
     }
 
     // /**

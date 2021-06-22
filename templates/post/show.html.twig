@@ -1,0 +1,20 @@
+{% extends 'clean.html.twig' %}
+
+{% block title %}Post {{ post.id }}{% endblock %}
+
+{# header #}
+{% block bg %}
+    {{ post.image }}
+{% endblock %}
+{% block h1 %}{{ post.title }}{% endblock %}
+
+{% block body %}
+
+<!-- Post Content-->
+<article class="mb-4">
+    <div class="container px-4 px-lg-5">
+        {# <img src="{{ post.image }}" alt="" style="width: 100%"> #}
+        <div>{{ post.content | raw }}</div>
+    </div>
+</article>
+{% endblock %}

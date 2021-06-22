@@ -9,7 +9,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-
 #[Route('/', name: 'post_')]
 class PostController extends AbstractController
 {
@@ -19,15 +18,6 @@ class PostController extends AbstractController
         return $this->render('post/index.html.twig', [
             'controller_name' => 'PostController',
             'posts' => $postRepository->findAll()
-        ]);
-    }
-
-    #[Route('/post/{id<\d+>}', name: 'view')]
-    public function view(int $id): Response
-    {
-        return $this->render('post/view.html.twig', [
-            'controller_name' => 'PostController',
-            'id' => $id
         ]);
     }
 
@@ -51,4 +41,14 @@ class PostController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
+
+    #[Route('/post/{slug}', name: 'show')]
+    public function show(Post $post): Response
+    {
+        return $this->render('post/show.html.twig', [
+            'controller_name' => 'PostController',
+            'post' => $post
+        ]);
+    }
+
 }
