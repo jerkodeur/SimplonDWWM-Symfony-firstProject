@@ -24,11 +24,10 @@ class PostRepository extends ServiceEntityRepository
         $em = $this->getEntityManager();
 
         $query = $em->createQuery(
-            'SELECT p.title, p.slug, p.content, p.image, p.created_at
+            'SELECT p.title, p.slug, p.content, p.image, p.createdAt
                 FROM APP\ENTITY\POST p
                 WHERE p.active = :status
-                ORDER BY p.created_at
-                DESC LIMIT 3'
+                ORDER BY p.createdAt'
         )
         ->setParameter('status', true)
         ->setMaxResults($nb); // limit request
