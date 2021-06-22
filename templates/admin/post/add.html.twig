@@ -1,8 +1,8 @@
-{% extends 'base.html.twig' %}
+{% extends 'clean.html.twig' %}
 
 {% block title %}Ajout d'une post{% endblock %}
 
-{% block body %}
-    <h1>Ajout d'un post</h1>
-    {{ form(form) }}
-{% endblock %}
+    {% block body %}
+        {{ form(form) }}
+        <div class="my-5"></div>
+    {% endblock %}
