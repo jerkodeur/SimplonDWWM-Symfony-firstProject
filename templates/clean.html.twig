@@ -34,15 +34,15 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_home') }}>Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('about') }}>About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_home') }}>Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('about') }}>A propos</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('contact') }}>Contact</a></li>
                         {% if not is_granted("ROLE_USER") %}
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_register') }}>Register</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_login') }}>Login</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_register') }}>Enregistrement</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_login') }}>Connexion</a></li>
                         {% else %}
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_add') }}>Nouvel Article</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_logout') }}>Logout</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_add') }}>Créer un Article</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_logout') }}>Déconnexion</a></li>
                         {% endif %}
                     </ul>
                 </div>
@@ -93,7 +93,7 @@
         </div>
 
         <!-- Footer-->
-        <footer class="border-top">
+        <footer class="mt-3">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
