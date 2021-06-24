@@ -16,7 +16,8 @@ class PostController extends AbstractController
     public function home(PostRepository $postRepository): Response
     {
         return $this->render('post/index.html.twig', [
-            'posts' => $postRepository->findAll()
+            'posts' => $postRepository->findLastPosts(),
+            'oldPosts' => $postRepository->findOldPosts()
         ]);
     }
 
@@ -39,18 +40,6 @@ class PostController extends AbstractController
         return $this->render('admin/post/add.html.twig', [
             'form' => $form->createView(),
         ]);
-    }
-
-    /**
-     * Return the {n} last post active created  
-     *
-     * @param \App\Repository\PostRepository $postRepository
-     */
-    #[Route('/post/old/index', name: 'old')]
-    public function oldPost(PostRepository $postRepository)
-    {
-        $posts = $postRepository->findOldPosts();
-        dd($posts);
     }
 
     #[Route('/post/{slug}', name: 'show')]
