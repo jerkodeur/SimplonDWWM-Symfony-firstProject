@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">JeuxVideosNews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_home') }}>Accueil</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('about') }}>A propos</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('contact') }}>Contact</a></li>
+                {% if not is_granted("ROLE_USER") %}
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_register') }}>Enregistrement</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_login') }}>Connexion</a></li>
+                {% else %}
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_add') }}>Créer un Article</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_logout') }}>Déconnexion</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
