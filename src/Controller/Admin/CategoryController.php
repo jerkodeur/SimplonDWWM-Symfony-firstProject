@@ -1,26 +1,17 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controller\Admin;
 
 use App\Entity\Category;
 use App\Form\CategoryType;
-use App\Entity\Post;
-use App\Form\PostType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class AdminController extends AbstractController
+#[Route('/', name: 'category')]
+class CategoryController extends AbstractController
 {
-    #[Route('/admin', name: 'admin')]
-    public function index(): Response
-    {
-        return $this->render('admin/index.html.twig', [
-            'controller_name' => 'AdminController',
-        ]);
-    }
-
     #[Route('/category/add', name: 'category_add')]
     public function addCategory(Request $request): Response
     {
@@ -33,7 +24,6 @@ class AdminController extends AbstractController
             $em->flush();                                           // Effectuer la transaction (vérifie que tout se passe bien, sinon annule la transaction)
             return $this->redirectToRoute('category_add');
         }
-        // dd($request);
 
         return $this->render('admin/category/add.html.twig', [
             'form' => $form->createView(),
