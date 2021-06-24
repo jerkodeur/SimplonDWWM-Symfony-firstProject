@@ -1,0 +1,24 @@
+<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">Articles</div>
+                <a class="nav-link" href="{{ path('post_add') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>
+                    Nouvel article
+                </a>
+            </div>
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">Catégories</div>
+                <a class="nav-link" href="{{ path('category_add') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>
+                    Nouvelle catégorie
+                </a>
+            </div>
+        </div>
+        <div class="sb-sidenav-footer">
+            <div class="small">Connecté en tant que:</div>
+            {{ app.user.email }}
+        </div>
+    </nav>
+</div>

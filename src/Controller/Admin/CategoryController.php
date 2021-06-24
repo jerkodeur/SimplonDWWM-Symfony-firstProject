@@ -9,10 +9,10 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route('/', name: 'category')]
+#[Route('/', name: 'category_')]
 class CategoryController extends AbstractController
 {
-    #[Route('/category/add', name: 'category_add')]
+    #[Route('/category/add', name: 'add')]
     public function addCategory(Request $request): Response
     {
         $category = new Category();                                 // Instanciation d'un nouvelle catégorie

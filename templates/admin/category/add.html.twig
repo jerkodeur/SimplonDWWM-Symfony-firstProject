@@ -1,11 +1,11 @@
-{% extends 'clean.html.twig' %}
+{% extends 'admin/index.html.twig' %}
 
 {% block title %}Ajouter une catégorie{% endblock %}
 
 {# header #}
 {% block subTitle %}Remplissez les champs suivants pour ajouter une catégorie{% endblock %}
 
-    {% block body %}
+    {% block main %}
         {{ form(form) }}
         <div class="my-5"></div>
     {% endblock %}
