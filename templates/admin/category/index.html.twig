@@ -1,0 +1,44 @@
+{% extends 'admin/index.html.twig' %}
+
+{% block title %}Admin - Liste des catégories{% endblock %}
+
+{% block main %}
+{% include "common/_flash.html.twig" %}
+<div class="card mb-3">
+    <div class="card-header d-flex justify-content-between">
+        <div>
+            <i class="fas fa-table me-1"></i>
+            Liste des catégorie
+        </div>
+        <div>
+            <a href="{{ path('admin_category_add') }}" class="btn btn-secondary btn active rounded" role="button" aria-pressed="true">Nouvelle catégorie</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">name</th>
+                    <th scope="col">slug</th>
+                    <th scope="col">Parent</th>
+                    <th scope="col" class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for category in categories %}
+                <tr>
+                    <th scope="row">{{ category.id }}</th>
+                    <td>{{ category.name }}</td>
+                    <td>{{ category.slug }}</td>
+                    <td>{{ category.parent }}</td>
+                    <td class="text-end">
+                        <a href="{{ path('admin_category_edit', { id: category.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
+                        <a href="{{ path('admin_category_delete') }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
