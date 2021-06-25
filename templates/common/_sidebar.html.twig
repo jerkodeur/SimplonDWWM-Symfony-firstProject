@@ -1,0 +1,12 @@
+<div class="bg-danger rounded text-warning p-1">
+    <h2>Archives</h2>
+</div>
+{% for post in oldPosts %}
+<div class="post-preview mb-3">
+    <a href="{{ path('post_show', {slug: post.slug}) }}">
+        <h5 class="post-title">{{ post.title }}</h5>
+    </a>
+        <img src="{{ post.image }}" alt="" style="width: 100%">
+    <p class="post-subtitle">{{ post.content | u.truncate(350, "...") | raw }}</p>
+</div>
+{% endfor %}

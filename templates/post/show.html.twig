@@ -1,19 +1,8 @@
-{% extends 'clean.html.twig' %}
+{% extends 'post/index.html.twig' %}
 
-{% block title %}Post {{ post.id }}{% endblock %}
+{% block title %}{{ post.title }}{% endblock %}
 
-{# header #}
-{% block bg %}
-    {{ post.image }}
-{% endblock %}
-{% block h1 %}{{ post.title }}{% endblock %}
+{% block bg %}{{ post.image }}{% endblock %}
+{% block h1 %}{{ block('title') }}{% endblock %}
 
-{% block body %}
-
-<!-- Post Content-->
-<article class="mb-4">
-    <div class="container px-4 px-lg-5">
-        <div>{{ post.content | raw }}</div>
-    </div>
-</article>
-{% endblock %}
+{% block main %}{{ post.content | raw }}{% endblock %}

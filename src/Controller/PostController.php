@@ -22,10 +22,11 @@ class PostController extends AbstractController
     }
 
     #[Route('/post/{slug}', name: 'show')]
-    public function show(Post $post): Response
+    public function show(Post $post, PostRepository $postRepository): Response
     {
         return $this->render('post/show.html.twig', [
-            'post' => $post
+            'post' => $post,
+            'oldPosts' => $postRepository->findOldPosts()
         ]);
     }
 
