@@ -52,7 +52,7 @@
 {% endblock %}
 
 {% block modal %}
-    {% include "admin/common/_deleteModal.html.twig" with {content: {type: "l'article", name: "le titre" }} %}
+    {% include "admin/common/_deleteModal.html.twig" with {content: {type: "l'article", name: "le titre", path: "/admin/post/delete/" }} %}
 {% endblock %}
 
 {% block javascripts %}

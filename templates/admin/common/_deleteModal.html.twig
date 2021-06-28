@@ -18,7 +18,7 @@
         <script>
             function deleteModalConfirm(id) {
                 document.getElementById('post_title').innerHTML = document.getElementById(`deleteButton_${id}`).dataset.title
-                document.getElementById('delete-confirm').href = `/admin/post/delete/${id}`
+                document.getElementById('delete-confirm').href = `{{ content.path }}${id}`
             }
         </script>
 {% endblock %}

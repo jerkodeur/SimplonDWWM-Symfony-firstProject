@@ -4,41 +4,46 @@
 
 {% block main %}
 {% include "common/_flash.html.twig" %}
-<div class="card mb-3">
+<div class="card bg-dark">
     <div class="card-header d-flex justify-content-between">
-        <div>
+        <h2 class="text-secondary">
             <i class="fas fa-table me-1"></i>
             Liste des catégorie
-        </div>
+        </h2>
         <div>
-            <a href="{{ path('admin_category_add') }}" class="btn btn-secondary btn active rounded" role="button" aria-pressed="true">Nouvelle catégorie</a>
+            <a href="{{ path('admin_category_add') }}" class="btn btn-success btn active rounded" role="button" aria-pressed="true">Nouvelle catégorie</a>
         </div>
     </div>
-    <div class="card-body">
-        <table id="datatablesSimple" class="table">
-            <thead>
-                <tr>
-                    <th scope="col">id</th>
-                    <th scope="col">name</th>
-                    <th scope="col">slug</th>
-                    <th scope="col">Parent</th>
-                    <th scope="col" class="text-end">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-            {% for category in categories %}
-                <tr>
-                    <th scope="row">{{ category.id }}</th>
-                    <td>{{ category.name }}</td>
-                    <td>{{ category.slug }}</td>
-                    <td>{{ category.parent }}</td>
-                    <td class="text-end">
-                        <a href="{{ path('admin_category_edit', { id: category.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
-                        <a href="{{ path('admin_category_delete', { id: category.id }) }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
-                    </td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-    </div>
+        <div class="table-responsive">
+            <table id="datatablesSimple" class="table table-light mb-0 table-striped">
+                <thead class="table-success">
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">name</th>
+                        <th scope="col">slug</th>
+                        <th scope="col">Parent</th>
+                        <th scope="col" class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for category in categories %}
+                    <tr>
+                        <th scope="row">{{ category.id }}</th>
+                        <td>{{ category.name }}</td>
+                        <td>{{ category.slug }}</td>
+                        <td>{{ category.parent }}</td>
+                        <td class="text-end">
+                            <a href="{{ path('admin_category_edit', { id: category.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
+                            <a href="{{ path('admin_category_delete', { id: category.id }) }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
+                            <a href="" class="btn btn-sm btn-danger rounded" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-id="{{ category.id }}"  data-title="{{ category.name }}" onclick="deleteModalConfirm({{ category.id }})" id="deleteButton_{{ category.id}}" aria-pressed="true">X</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+{% endblock %}
+
+{% block modal %}
+    {% include "admin/common/_deleteModal.html.twig" with {content: {type: "la catégorie", name: "le label", path: "/admin/category/delete/" }} %}
 {% endblock %}
