@@ -60,6 +60,12 @@ class PostController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
+    
+    #[Route('/activate/{id<\d+>}', name: 'activate', methods: ['GET', 'POST'])]
+    public function Activate(Request $request, Post $post): Response
+    {
+        dd($post);
+    }
 
     #[Route('/delete/{id<\d+>}', name: 'delete')]
     public function deletePost(Post $post): Response

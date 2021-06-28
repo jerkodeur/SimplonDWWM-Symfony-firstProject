@@ -33,7 +33,7 @@ class PostType extends AbstractType
                 'row_attr' => ['class' => 'my-2'],
                 ])
             ->add('active', CheckboxType::class, [
-                'label' => 'Publier l\'article',
+                'label' => 'Publier l\'article ?',
                 'row_attr' => ['class' => 'my-3'],
                 'required' => false
             ])
