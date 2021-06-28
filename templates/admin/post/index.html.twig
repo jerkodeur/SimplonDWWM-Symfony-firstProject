@@ -41,8 +41,8 @@
                         </div>
                     </td>
                     <td class="text-end">
-                        <a href="{{ path('admin_post_edit', { id: post.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
-                        <a href="{{ path('admin_post_delete', { id: post.id }) }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
+                        <a href="{{ path('admin_post_edit', { id: post.id }) }}" class="btn btn-sm btn-warning rounded" role="button" aria-pressed="true">Modifier</a>
+                        <a href="" class="btn btn-sm btn-danger rounded" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-id="{{ post.id }}"  data-title="{{ post.title }}" onclick="deleteModalConfirm({{ post.id }})" id="deleteButton_{{ post.id}}"  aria-pressed="true">X</a>
                     </td>
                 </tr>
             {% endfor %}
@@ -51,19 +51,22 @@
     </div>
 {% endblock %}
 
+{% block modal %}
+    {% include "admin/common/_deleteModal.html.twig" with {content: {type: "l'article", name: "le titre" }} %}
+{% endblock %}
+
 {% block javascripts %}
 {{ parent() }}
-<script>
-    window.onload = () => {
-        let activate = document.querySelectorAll("[type=checkbox]")
-        for(let button of activate) {
-            button.addEventListener("click", function() {
-                let xmlhttp = new XMLHttpRequest
-                xmlhttp.open("get", `/admin/post/activate/${this.dataset.id}`)
-                xmlhttp.onreadystatechange = () => xmlhttp.status === 200 && console.log(xmlhttp.response);
-                xmlhttp.send()
-            })
+    <script>
+        window.onload = () => {
+            let activate = document.querySelectorAll("[type=checkbox]")
+            for(let button of activate) {
+                button.addEventListener("click", function(){
+                    let xmlhttp = new XMLHttpRequest
+                    xmlhttp.open("get", `/admin/post/activate/${this.dataset.id}`)
+                    xmlhttp.send()
+                })
+            }
         }
-    }
-</script>
+    </script>
 {% endblock %}

@@ -1,0 +1,25 @@
+{% extends "common/_modal.html.twig" %}
+
+{% block modal_title %}
+    Supprimer {{ content.type }}
+{% endblock %}
+
+{% block modal_body %}
+    Vous êtes sur le point de supprimer {{ content.type }} contenant {{ content.name }}:
+    <div id="post_title" class="fw-bold"></div>
+{% endblock %}
+
+{% block modal_button_2 %}
+    <a href="#" class="btn btn btn-danger rounded" role="button" aria-pressed="true" id="delete-confirm">Confirmer la suppression</a>
+{% endblock %}
+
+{% block javascript %}
+    {{ parent() }}
+        <script>
+            function deleteModalConfirm(id) {
+                document.getElementById('post_title').innerHTML = document.getElementById(`deleteButton_${id}`).dataset.title
+                document.getElementById('delete-confirm').href = `/admin/post/delete/${id}`
+            }
+        </script>
+{% endblock %}
+
