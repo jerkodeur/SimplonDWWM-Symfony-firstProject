@@ -62,8 +62,14 @@ class PostController extends AbstractController
     }
 
     #[Route('/delete/{id<\d+>}', name: 'delete')]
-    public function deletePost(Request $request): Void
+    public function deletePost(Post $post): Response
     {
-        return;
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($post);
+        $em->flush();
+
+        $this->addFlash('success', 'L\'articlee à bien été supprimé');
+
+        return $this->redirectToRoute('admin_post_list');
     }
 }

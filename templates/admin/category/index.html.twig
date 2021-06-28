@@ -34,7 +34,7 @@
                     <td>{{ category.parent }}</td>
                     <td class="text-end">
                         <a href="{{ path('admin_category_edit', { id: category.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
-                        <a href="{{ path('admin_category_delete') }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
+                        <a href="{{ path('admin_category_delete', { id: category.id }) }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
                     </td>
                 </tr>
             {% endfor %}

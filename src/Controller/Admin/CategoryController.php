@@ -50,6 +50,7 @@ class CategoryController extends AbstractController
             $em = $this->getDoctrine()->getManager();
             $em->persist($category);
             $em->flush();
+
             $this->addFlash('success', 'La catégorie à bien été mise à jour');
 
             return $this->redirectToRoute('admin_category_list');
@@ -60,9 +61,15 @@ class CategoryController extends AbstractController
         ]);
     }
 
-    #[Route('/delete', name: 'delete')]
-    public function deleteCategory(Request $request): Void
+    #[Route('/delete/{id<\d+>}', name: 'delete')]
+    public function deleteCategory(Category $category): Response
     {
-        return;
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($category);
+        $em->flush();
+
+        $this->addFlash('success', 'La catégorie à bien été supprimée');
+
+        return $this->redirectToRoute('admin_category_list');
     }
 }

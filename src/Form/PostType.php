@@ -33,9 +33,9 @@ class PostType extends AbstractType
                 'row_attr' => ['class' => 'my-2'],
                 ])
             ->add('active', CheckboxType::class, [
-                'data' => false,
                 'label' => 'Publier l\'article',
                 'row_attr' => ['class' => 'my-3'],
+                'required' => false
             ])
             ->add('Valider', SubmitType::class);
     }
