@@ -13,6 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route('/admin/post', name: 'admin_post_')]
 class PostController extends AbstractController
 {
+
     #[Route("/list" , name: 'list')]
     public function postList(PostRepository $postRepository): Response
     {
@@ -60,11 +61,17 @@ class PostController extends AbstractController
             'form' => $form->createView(),
         ]);
     }
-    
-    #[Route('/activate/{id<\d+>}', name: 'activate', methods: ['GET', 'POST'])]
+
+    #[Route('/activate/{id<\d+>}', name: 'activate', methods: ['GET','POST'])]
     public function Activate(Request $request, Post $post): Response
     {
-        dd($post);
+        $post->setActive(!$post->getActive());
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($post);
+
+        $em->flush();
+
+        return new Response("modify");
     }
 
     #[Route('/delete/{id<\d+>}', name: 'delete')]
