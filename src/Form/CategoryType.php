@@ -16,10 +16,13 @@ class CategoryType extends AbstractType
         $builder
             ->add('name', TextType::class, [
                 "label" => "Nom de la catégorie",
+                'row_attr' => ['class' => 'my-2'],
             ])
             //->add('slug')
             ->add('parent')
-            ->add('Valider', SubmitType::class) // Ajout d'un bouton au formulaire
+            ->add('Valider', SubmitType::class, [
+                'row_attr' => ['class' => 'my-2'],
+            ])
         ;
     }
 
