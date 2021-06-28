@@ -11,7 +11,7 @@
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('about') }}>A propos</a></li>
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('contact') }}>Contact</a></li>
                 {% if is_granted('ROLE_ADMIN') %}
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('admin_home') }}>Administrer le contenu</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('admin_post_list') }}>Administrer le contenu</a></li>
                 {% endif %}
                 {% if not is_granted("ROLE_USER") %}
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('app_register') }}>Enregistrement</a></li>

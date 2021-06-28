@@ -4,50 +4,50 @@
 
 {% block main %}
 {% include "common/_flash.html.twig" %}
-<div class="card mb-3">
+<div class="card bg-dark">
     <div class="card-header d-flex justify-content-between">
-        <div>
+        <h2 class="text-secondary">
             <i class="fas fa-table me-1"></i>
             Liste des articles
-        </div>
+        </h2>
         <div>
-            <a href="{{ path('admin_post_add') }}" class="btn btn-secondary btn active rounded" role="button" aria-pressed="true">Nouvel article</a>
+            <a href="{{ path('admin_post_add') }}" class="btn btn-success btn active rounded" role="button" aria-pressed="true">Nouvel article</a>
         </div>
     </div>
-    <div class="card-body">
-        <table id="datatablesSimple" class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">Title</th>
-                    <th scope="col">Auteur</th>
-                    <th scope="col">Catégorie</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Active</th>
-                    <th scope="col" class="text-end">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-            {% for post in posts %}
-                <tr>
-                    <th scope="row">{{ post.id }}</th>
-                    <td>{{ post.title }}</td>
-                    <td>{{ post.user.email}}</td>
-                    <td>{{ post.category.name}}</td>
-                    <td>{{ post.createdAt | date('d:m:Y H:i') }}</td>
-                    <td>
-                        <div class="form-check form-switch">
-                            <input class="form-check-input" type="checkbox" name="active" id="customSwitch{{ post.id }}" data-id="{{ post.id }}" {{ post.active ? 'checked' : null}}>
-                        </div>
-                    </td>
-                    <td class="text-end">
-                        <a href="{{ path('admin_post_edit', { id: post.id }) }}" class="btn btn-sm btn-warning rounded" role="button" aria-pressed="true">Modifier</a>
-                        <a href="" class="btn btn-sm btn-danger rounded" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-id="{{ post.id }}"  data-title="{{ post.title }}" onclick="deleteModalConfirm({{ post.id }})" id="deleteButton_{{ post.id}}"  aria-pressed="true">X</a>
-                    </td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table id="datatablesSimple" class="table table-light mb-0 table-striped">
+                <thead class="table-success">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col ">Title</th>
+                        <th scope="col">Auteur</th>
+                        <th scope="col">Catégorie</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Active</th>
+                        <th scope="col" class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for post in posts %}
+                    <tr>
+                        <th scope="row">{{ post.id }}</th>
+                        <td class="w-50"><a class="link-success" href="{{ path('post_show', {slug: post.slug}) }}">{{ post.title }}</a></td>
+                        <td>{{ post.user.email}}</td>
+                        <td>{{ post.category.name}}</td>
+                        <td>{{ post.createdAt | date('d:m:Y H:i') }}</td>
+                        <td>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="active" id="customSwitch{{ post.id }}" data-id="{{ post.id }}" {{ post.active ? 'checked' : null}}>
+                            </div>
+                        </td>
+                        <td class="text-end">
+                            <a href="{{ path('admin_post_edit', { id: post.id }) }}" class="btn btn-sm btn-warning rounded" role="button" aria-pressed="true">Modifier</a>
+                            <a href="" class="btn btn-sm btn-danger rounded" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-id="{{ post.id }}"  data-title="{{ post.title }}" onclick="deleteModalConfirm({{ post.id }})" id="deleteButton_{{ post.id}}"  aria-pressed="true">X</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
     </div>
 {% endblock %}
 

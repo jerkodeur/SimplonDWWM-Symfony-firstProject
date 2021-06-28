@@ -3,13 +3,9 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading">
-                        <h1>
-                            {% block h1 %}{{ block('title')}}{% endblock %}
-                        </h1>
-                        <h2 class="subheading">
-                            {% block subTitle %}Retrouver l'actualité de mes derniers jeux testés{% endblock %}
-                        </h2>
-                        <span class="meta">
+                    {% block h1 %}{{ block('title')}}{% endblock %}
+                    {% block subTitle %}Retrouver l'actualité de mes derniers jeux testés{% endblock %}
+                    <span class="meta">
                         {% block meta %}{% endblock %}
                     </span>
                 </div>
