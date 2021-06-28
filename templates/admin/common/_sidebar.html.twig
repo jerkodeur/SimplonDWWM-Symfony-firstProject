@@ -3,6 +3,10 @@
         <div class="sb-sidenav-menu">
             <div class="nav">
                 <div class="sb-sidenav-menu-heading">Articles</div>
+                <a class="nav-link" href="{{ path('admin_post_list') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>
+                    Liste des articles
+                </a>
                 <a class="nav-link" href="{{ path('admin_post_add') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>
                     Nouvel article
@@ -12,7 +16,7 @@
                 <div class="sb-sidenav-menu-heading">Catégories</div>
                 <a class="nav-link" href="{{ path('admin_category_list') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>
-                    Voir les catégories
+                    Liste des catégories
                 </a>
                 <a class="nav-link" href="{{ path('admin_category_add') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-rectangle-list"></i></div>

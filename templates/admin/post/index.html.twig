@@ -1,0 +1,48 @@
+{% extends 'admin/index.html.twig' %}
+
+{% block title %}Admin - Liste des posts{% endblock %}
+
+{% block main %}
+{% include "common/_flash.html.twig" %}
+<div class="card mb-3">
+    <div class="card-header d-flex justify-content-between">
+        <div>
+            <i class="fas fa-table me-1"></i>
+            Liste des articles
+        </div>
+        <div>
+            <a href="{{ path('admin_post_add') }}" class="btn btn-secondary btn active rounded" role="button" aria-pressed="true">Nouvel article</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Auteur</th>
+                    <th scope="col">Catégorie</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Active</th>
+                    <th scope="col" class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for post in posts %}
+                <tr>
+                    <th scope="row">{{ post.id }}</th>
+                    <td>{{ post.title }}</td>
+                    <td>{{ post.user.email}}</td>
+                    <td>{{ post.category.name}}</td>
+                    <td>{{ post.createdAt | date('d:m:Y H:i') }}</td>
+                    <td>{{ post.active }}</td>
+                    <td class="text-end">
+                        <a href="{{ path('admin_post_edit', { id: post.id }) }}" class="btn-sm btn-warning btn active rounded" role="button" aria-pressed="true">Modifier</a>
+                        <a href="{{ path('admin_post_delete', { id: post.id }) }}" class="btn-sm btn-danger btn active rounded" role="button" aria-pressed="true">X</a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
