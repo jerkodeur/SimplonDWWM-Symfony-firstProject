@@ -21,23 +21,30 @@ class PostType extends AbstractType
         $builder
             ->add('title', TextType::class, [
                 'row_attr' => ['class' => 'my-2'],
+                'label_attr' => ['class' => 'mb-1'],
             ])
             ->add('content', CKEditorType::class, [
                 'row_attr' => ['class' => 'my-2'],
+                'label_attr' => ['class' => 'mb-1'],
             ])
             ->add('image', TextType::class, [
                 'row_attr' => ['class' => 'my-2'],
+                'label_attr' => ['class' => 'mb-1'],
             ])
             ->add('category', EntityType::class, [
                 'class' => Category::class,
                 'row_attr' => ['class' => 'my-2'],
+                'label_attr' => ['class' => 'mb-1'],
                 ])
             ->add('active', CheckboxType::class, [
                 'label' => 'Publier l\'article ?',
                 'row_attr' => ['class' => 'my-3'],
+                'label_attr' => ['class' => 'mb-1'],
                 'required' => false
             ])
-            ->add('Valider', SubmitType::class);
+            ->add('Valider', SubmitType::class, [
+                'attr' => ['class' => 'btn-dark']
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)
