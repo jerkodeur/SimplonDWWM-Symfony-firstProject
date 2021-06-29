@@ -1,6 +1,7 @@
 {% extends 'clean.html.twig' %}
 
-{% block title %}Register{% endblock %}
+{% block title %}Enregistrement{% endblock %}
+{% block subTitle %}{% endblock %}
 
 
 {% block body %}
@@ -17,7 +18,7 @@
         {{ form_row(registrationForm.agreeTerms) }}
 
         <div class="mb-5 mt-3">
-            <button type="submit" class="btn btn-primary rounded">Register</button>
+            <button type="submit" class="btn btn-primary rounded">S'enregistrer</button>
         </div>
     {{ form_end(registrationForm) }}
     </div>
