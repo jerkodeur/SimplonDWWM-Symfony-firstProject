@@ -18,19 +18,19 @@
             <table id="datatablesSimple" class="table table-light mb-0 table-striped">
                 <thead class="table-success">
                     <tr>
-                        <th scope="col">Id</th>
+                        <th scope="col" class="text-center">Id</th>
                         <th scope="col ">Title</th>
                         <th scope="col">Auteur</th>
                         <th scope="col">Catégorie</th>
-                        <th scope="col">Date</th>
+                        <th scope="col" class="text-center">Date</th>
                         <th scope="col">Active</th>
-                        <th scope="col" class="text-end">Actions</th>
+                        <th scope="col" class="text-center">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                 {% for post in posts %}
                     <tr>
-                        <th scope="row">{{ post.id }}</th>
+                        <th scope="row" class="text-center">{{ post.id }}</th>
                         <td class="w-50"><a class="link-success" href="{{ path('post_show', {slug: post.slug}) }}">{{ post.title }}</a></td>
                         <td>{{ post.user.email}}</td>
                         <td>{{ post.category.name}}</td>

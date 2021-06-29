@@ -35,6 +35,8 @@ class PostType extends AbstractType
                 'class' => Category::class,
                 'row_attr' => ['class' => 'my-2'],
                 'label_attr' => ['class' => 'mb-1'],
+                'placeholder' => 'Choisir une sous-catégorie',
+                'choices' => null
                 ])
             ->add('active', CheckboxType::class, [
                 'label' => 'Publier l\'article ?',

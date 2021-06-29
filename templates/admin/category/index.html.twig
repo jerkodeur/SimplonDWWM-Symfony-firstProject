@@ -18,7 +18,7 @@
             <table id="datatablesSimple" class="table table-light mb-0 table-striped">
                 <thead class="table-success">
                     <tr>
-                        <th scope="col">id</th>
+                        <th scope="col" class="text-center">id</th>
                         <th scope="col">name</th>
                         <th scope="col">slug</th>
                         <th scope="col">Parent</th>
@@ -28,7 +28,7 @@
                 <tbody>
                 {% for category in categories %}
                     <tr>
-                        <th scope="row">{{ category.id }}</th>
+                        <th scope="row" class="text-center">{{ category.id }}</th>
                         <td>{{ category.name }}</td>
                         <td>{{ category.slug }}</td>
                         <td>{{ category.parent }}</td>

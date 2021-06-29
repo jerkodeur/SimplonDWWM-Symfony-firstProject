@@ -68,7 +68,6 @@ class PostController extends AbstractController
         $post->setActive(!$post->getActive());
         $em = $this->getDoctrine()->getManager();
         $em->persist($post);
-
         $em->flush();
 
         return new Response("modify");

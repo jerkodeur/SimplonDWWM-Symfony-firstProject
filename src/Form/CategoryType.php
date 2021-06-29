@@ -25,6 +25,9 @@ class CategoryType extends AbstractType
                 "label" => "Catégorie parent",
                 'label_attr' => ['class' => 'mb-1'],
                 'row_attr' => ['class' => 'my-2'],
+                'placeholder' => 'Choisir une sous-catégorie',
+                'choices' => null,
+                'required' => false
             ])
             ->add('Valider', SubmitType::class, [
                 'attr' => ['class' => 'btn-dark mt-3']
