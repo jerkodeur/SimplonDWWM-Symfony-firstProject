@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Entity\Post;
 use App\Form\PostType;
 use App\Repository\PostRepository;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -13,6 +14,12 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route('/admin/post', name: 'admin_post_')]
 class PostController extends AbstractController
 {
+    private $em;
+
+    public function __construct(EntityManagerInterface $em)
+    {
+        $this->em = $em;
+    }
 
     #[Route("/list" , name: 'list')]
     public function postList(PostRepository $postRepository): Response
@@ -30,9 +37,8 @@ class PostController extends AbstractController
         $form->handleRequest($request);                                 // Récupération des données du formulaire s'il a été rempli
         if ($form->isSubmitted() && $form->isValid()) {                 // Vérification que les données sont valides
             $post->setUser($this->getUser());
-            $em = $this->getDoctrine()->getManager();                   // Récupération de l'entity manager de Doctrine
-            $em->persist($post);                                        // Persistance des données de la nouvelle catégorie en BDD (INSERT ou UPDATE)
-            $em->flush();                                               // Effectuer la transaction (vérifie que tout se passe bien, sinon annule la transaction)
+            $this->em->persist($post);                                        // Persistance des données de la nouvelle catégorie en BDD (INSERT ou UPDATE)
+            $this->em->flush();                                               // Effectuer la transaction (vérifie que tout se passe bien, sinon annule la transaction)
             $this->addFlash('success', "L'article à bien été ajouté");
 
             return $this->redirectToRoute('admin_post_list');
@@ -49,9 +55,8 @@ class PostController extends AbstractController
         $form = $this->createForm(PostType::class, $post);
         $form->handleRequest($request);
         if($form->isSubmitted() && $form->isValid()) {
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($post);
-            $em->flush();
+            $this->em->persist($post);
+            $this->em->flush();
             $this->addFlash('success', 'L\'article à bien été mise à jour');
 
             return $this->redirectToRoute('admin_post_list');
@@ -66,9 +71,9 @@ class PostController extends AbstractController
     public function Activate(Request $request, Post $post): Response
     {
         $post->setActive(!$post->getActive());
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($post);
-        $em->flush();
+
+        $this->em->persist($post);
+        $this->em->flush();
 
         return new Response("modify");
     }
@@ -76,11 +81,10 @@ class PostController extends AbstractController
     #[Route('/delete/{id<\d+>}', name: 'delete')]
     public function deletePost(Post $post): Response
     {
-        $em = $this->getDoctrine()->getManager();
-        $em->remove($post);
-        $em->flush();
+        $this->em->remove($post);
+        $this->em->flush();
 
-        $this->addFlash('success', 'L\'articlee à bien été supprimé');
+        $this->addFlash('success', 'L\'article à bien été supprimé');
 
         return $this->redirectToRoute('admin_post_list');
     }
