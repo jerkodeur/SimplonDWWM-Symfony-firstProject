@@ -6,4 +6,15 @@
 {% block h1 %}{{ block('title') }}{% endblock %}
 {% block subTitle %}{% endblock %}
 
-{% block main %}{{ post.content | raw }}{% endblock %}
+{% block style %}
+<style>
+    main p img {
+        max-width: 100%;
+    }
+</style>
+{% endblock %}
+
+{% block main %}
+    {{ post.content | raw }}
+{% endblock %}
+
