@@ -5,7 +5,6 @@ namespace App\DataFixtures;
 use App\Entity\Post;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
-use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Persistence\ObjectManager;
 
 class PostFixtures extends Fixture implements DependentFixtureInterface
@@ -158,6 +157,7 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
         $post->setImage($posts['img']);
         $post->setCategory($this->getReference('Fantasy'));
         $post->setUser($this->getReference('admin'));
+        $post->setActive(true);
 
         $manager->persist($post);
 
