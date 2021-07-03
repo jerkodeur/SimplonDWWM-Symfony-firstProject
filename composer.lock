@@ -3628,12 +3628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "4ababad35dbb739b521614d3094d7e5e0d1d06e4"
+                "reference": "38484ce279a3aa47d7d06c0316cd0b648c48356d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/4ababad35dbb739b521614d3094d7e5e0d1d06e4",
-                "reference": "4ababad35dbb739b521614d3094d7e5e0d1d06e4",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/38484ce279a3aa47d7d06c0316cd0b648c48356d",
+                "reference": "38484ce279a3aa47d7d06c0316cd0b648c48356d",
                 "shasum": ""
             },
             "require": {
@@ -3643,7 +3643,6 @@
             "require-dev": {
                 "symfony/process": "^4.4|^5.0|^6.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -3691,7 +3690,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:50+00:00"
+            "time": "2021-07-03T09:16:21+00:00"
         },
         {
             "name": "symfony/error-handler",

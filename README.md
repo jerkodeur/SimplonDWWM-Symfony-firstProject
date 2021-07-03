@@ -51,6 +51,7 @@ Video Games
 - friendsofsymfony/ckeditor-bundle (_WYSIWYG editor_)
 - twig/string-extra (_Twig extra tools_)
 - symfony/translation (_Change the symfony language_)
+- orm-fixtures
 
 ### Services
 - Emails handler : [MailHog](https://github.com/mailhog/MailHog)
