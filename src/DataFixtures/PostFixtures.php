@@ -4,10 +4,11 @@ namespace App\DataFixtures;
 
 use App\Entity\Post;
 use Doctrine\Bundle\FixturesBundle\Fixture;
+use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Common\DataFixtures\FixtureInterface;
 use Doctrine\Persistence\ObjectManager;
 
-class PostFixtures extends Fixture implements FixtureInterface
+class PostFixtures extends Fixture implements DependentFixtureInterface
 {
     public function load(ObjectManager $manager)
     {
@@ -155,7 +156,7 @@ class PostFixtures extends Fixture implements FixtureInterface
         $post->setTitle($posts['title']);
         $post->setContent($posts['content']);
         $post->setImage($posts['img']);
-        $post->setCategory($this->getReference('fantasy'));
+        $post->setCategory($this->getReference('Fantasy'));
         $post->setUser($this->getReference('admin'));
 
         $manager->persist($post);
