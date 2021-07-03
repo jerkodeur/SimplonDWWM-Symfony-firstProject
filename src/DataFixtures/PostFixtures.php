@@ -19,17 +19,18 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
 
             <h2>TOUT CE QUE VOUS DEVEZ SAVOIR POUR SURVIVRE &Agrave; VALHEIM</h2>
 
-            <p>&nbsp;</p>
-
-            <p><img alt="valheim valheim game valheim server valheim game download valheim gameplay valheim release date pål sverre valheim hagen valheim download anne ruth valheim aov switch valheim apv switch valheim arena of valor valheim build arena of valor valheim op dvoid valheim games like valheim valheim buy key hideka valheim how to install valheim on a pc how to make a valheim server how to start a valheim server how to visit valheim hof http en.m.wikipedia.org wiki p c3 a5l_sverre_valheim_hagen http spangenhelm.com valheim-hof-denmark-dedicated-odin-gods https dvoidis itch io valheim is valheim getting updated cd key valheim best price valheim valheim game key game code valheim" src="https://www.allkeyshop.com/blog/wp-content/uploads/valheim.jpg" style="height:341px; width:615px" /></p>
-
-            <p>&nbsp;</p>
 
             <ul>
                 <li>Ce que doivent &ecirc;tre vos premiers pas dans le jeu.</li>
                 <li>Comment construire votre premi&egrave;re base.</li>
                 <li>Comment vous pr&eacute;parer au premier combat de big boss.</li>
             </ul>
+
+            <p>&nbsp;</p>
+
+            <p><img alt="valheim valheim game valheim server valheim game download valheim gameplay valheim release date pål sverre valheim hagen valheim download anne ruth valheim aov switch valheim apv switch valheim arena of valor valheim build arena of valor valheim op dvoid valheim games like valheim valheim buy key hideka valheim how to install valheim on a pc how to make a valheim server how to start a valheim server how to visit valheim hof http en.m.wikipedia.org wiki p c3 a5l_sverre_valheim_hagen http spangenhelm.com valheim-hof-denmark-dedicated-odin-gods https dvoidis itch io valheim is valheim getting updated cd key valheim best price valheim valheim game key game code valheim" src="https://www.allkeyshop.com/blog/wp-content/uploads/valheim.jpg" style="height:341px; width:615px" /></p>
+
+            <p>&nbsp;</p>
 
             <p>&nbsp;</p>
 

@@ -16,7 +16,7 @@
                         <h2 class="post-title">{{ post.title }}</h2>
                         <img src="{{ post.image }}" alt="" style="width: 100%">
                     </a>
-                    <p class="post-subtitle">{{ post.content | u.truncate(550, "...") | raw }}</p>
+                    <p class="post-subtitle">{{ post.content | u.truncate(350, "...") | raw }}</p>
                     <div class="post-meta">
                         Posté par
                         <a href="#">{{ post.user.email }}</a>
