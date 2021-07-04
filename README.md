@@ -33,6 +33,8 @@ Video Games
   - Import an admin front template
   - Securize the admin routes
   - Make the CRUD administration
+- Configure Heroku for hosting the project
+  - Add mailJet to handle mails
 
 ### Technologies
 
@@ -42,6 +44,7 @@ Video Games
 - Git
 - Github
 - MySql
+- Heroku
 
 ### Used Bundles
 
