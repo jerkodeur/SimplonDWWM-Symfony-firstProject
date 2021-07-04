@@ -27,7 +27,7 @@ class PostRepository extends ServiceEntityRepository
             'SELECT p.title, p.slug, p.content, p.image, p.createdAt
                 FROM APP\ENTITY\POST p
                 WHERE p.active = :status
-                ORDER BY p.createdAt'
+                ORDER BY p.createdAt DESC'
         )
         ->setParameter('status', true)
         ->setMaxResults($nb); // limit request
@@ -35,12 +35,12 @@ class PostRepository extends ServiceEntityRepository
         return $query->getResult();
     }
 
-    public function findLastPosts(int $nb = 4)
+    public function findLastPosts(int $nb = 5)
     {
         return $this->createQueryBuilder('p')
             ->andWhere('p.active = :active')
             ->setParameter('active', true)
-            ->orderBy('p.createdAt', 'DESC')
+            ->orderBy('p.createdAt', 'ASC')
             ->setMaxResults($nb)
             ->getQuery()
             ->getResult()

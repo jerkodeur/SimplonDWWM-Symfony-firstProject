@@ -375,96 +375,110 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
             'content' => 'Rien n’a encore été officialisé, mais alors que Civilization VI célébrera bientôt ses cinq ans et que deux extensions ont été commercialisées, l’annonce d’un nouvel opus semble aussi inéluctable que (relativement) proche. En attendant, nous avons décidé de revenir sur la genèse de celui qui est, à n’en pas douter, le plus célèbre des jeux de gestion et stratégie. Retour en 1991… Et même un peu plus loin encore.
 
             Aux antipodes de la bataille des téraflops, de la 4K et des 60 fps, NEO•Classics  vous propose un retour vers les origines du jeu vidéo. Du titre 2D en gros pixels au moins lointain jeu à la 3D hésitante, cette chronique vous invite à (re)découvrir les pépites vidéoludiques qui ont ouvert le monde au 10e art...
-            
+
             An de grâce 1982 : Sid Meier et Bill Stealey décident de fonder MicroProse. Le jeu vidéo n’est pas encore rentré dans les mœurs et le pari est d’autant plus risqué que les deux compères n’ont alors qu’une idée en tête : développer des simulateurs militaires. MiG Alley Ace, F-15 Strike Eagle ou F-19 Stealth Fighter comptent parmi les premiers succès de la société, mais la sortie de titres comme SimCity ou Populous pousse Sid Meier à élargir son horizon.
-            
-            
+
+
             Jeux de plateau et inspiration
             En 1990, et en s’inspirant nettement du jeu de plateau 1830: The Game of Railroads and Robber Barons, publié par Avalon Hill, Sid Meier développe Railroad Tycoon. Pour ce faire, il a pu compter sur le soutien d’une nouvelle recrue, Bruce Shelley, lui-même ancien designer d’Avalon Hill.
-            
+
             Simulation économique pure et dure, le jeu nous propulse dans la peau d’un magnat du chemin de fer en plein boom du XIXe siècle. Mélange de gestion et de stratégie – économique certes – avec une représentation en vue « de dessus », Railroad Tycoon est un succès qui plante les graines du prochain projet de Sid Meier.
-            
+
             Bill Stealey et Sid Meier
             En 1982, Bill Stealey et Sid Meier n\'ont que la simulation pure et dure à l\'esprit © Tilt
             Pour ce projet, le créateur s’inspire d’un autre jeu de plateau, le Civilization imaginé par le studio Hartland Trefoil et, à nouveau, édité par Avalon Hill. Dans ce jeu de société, 2 à 7 joueurs prennent en main une civilisation du bassin méditerranéen alors que les premières cités s’y établissent. L’objectif est de faire prospérer son peuple au cours de presque huit millénaires, avec ce que cela suppose de découvertes technologiques, d’échanges commerciaux, de catastrophes naturelles… Et de conflits militaires. Bien sûr, vous aurez reconnu ici toutes les bases du jeu vidéo Sid Meier’s Civilization commercialisé en 1991.
-            
+
             Et n’allez pas croire que ce bon Sid a pris la grosse tête : si le nouveau jeu porte ainsi son patronyme, c’est sur une idée de Bill Stealey. Compte tenu du changement de style opéré par MicroProse, ce dernier estime en effet utile de préciser aux joueurs que c\'est bien le créateur qu\'ils affectionnent – celui des F-15 et autres F-19 – qui est aux commandes.
-            
+
             Civilization premier du nom sort donc en septembre 1991, d’abord sur PC. Le succès est immédiat et aux innombrables récompenses s’ajoutent un nombre de ventes stupéfiant pour un jeu de ce style : au total, plus de 1,5 million de copies ont trouvé preneur.
-            
+
             Civilization reference card © MicroProse
             La carte de référence de Civilization sur PlayStation... en version japonaise © Moby Games
             Le principe est similaire à celui du jeu de plateau, mais Sid Meier profite de la puissance des ordinateurs pour en étoffer considérablement le spectre. Ainsi, plutôt que de se contenter du bassin méditerranéen, c’est toute la planète qui est « modélisée ». Il est aussi possible de partir sur des mondes aléatoires et la chronologie est plus longue : on pousse les parties jusqu’à l’ère spatiale.
-            
+
             Surtout, le titre profite du confort de l’ordinateur, qui permet d’aboutir à un jeu bien plus dynamique… et quelle claque, quel plaisir de jeu ! Ce serait même à cette époque qu’est née la petite phrase « one more turn » pour illustrer l’impossibilité d’arrêter une partie : « Aller, encore un tour et je vais me coucher ! ».
-            
+
             Sid Meier&#039;s Civilization © Joystick
             Sid Meier\'s Civilization a les honneurs du Joystick n°22 : il décroche un 96% © Joystick
             CivNet, Civilization II et les premières extensions
             Cinq niveaux de difficultés, sept civilisations au choix avec des conditions de départ sensiblement différentes, et des parties sans cesse renouvelées : Civilization disposait d’une durée de vie colossale. Il lui manquait toutefois une dimension : le multijoueurs. Si aujourd’hui cela peut prêter à sourire, à l’époque un tel mode n’allait pas forcément de soi. Mais plusieurs jeux avaient déjà ouvert la voie et Sid Meier avait envie de creuser la question… Aussi, en 1995, sort CivNet.
-            
+
             Sid Meier&#039;s Civilization © Moby Games
             Comment ça, « le jeu est moche » ? © Moby Games
             Un an après la sortie d’une espèce de variante de Civilization axée sur les colonies et l’indépendance américaine – Colonization – Sid Meier revoit sa copie. En plus d’une version Windows – bonheur du fenêtrage – il ajoute diverses options de jeu à plusieurs. Le mode en ligne n’est pas exempt de bugs, mais le hot seat est l’occasion de parties d’une incroyable intensité malgré la nécessité de jouer chacun son tour et d’attendre – loin de l’ordinateur – que les autres joueurs aient terminé leurs actions pour reprendre la main. À l’époque, il fallait souffrir pour s’amuser !
-            
+
             Il faut attendre encore une année supplémentaire pour que la franchise prenne véritablement son envol avec sa première suite. Toujours édité par MicroProse, Civilization II est développé par Brian Reynolds, lead designer sur le projet, Sid Meier endossant alors le rôle \'une espèce de super-consultant, de sage parmi les sages.
-            
+
             Sur le papier, le concept est assez similaire au premier opus et on voyait de toute façon assez mal le studio changer du tout au tout. Pourtant, sur un plan strictement visuel, le changement est de taille : on passe effectivement à une représentation isométrique en lieu et place de la vue de dessus.
-            
-            
+
+
             Civilization II profite également du traitement « Monsieur Plus » : on prend la même base qu’on étoffe tout azimut pour aboutir à davantage de civilisations disponibles, des unités plus nombreuses et un arbre technologique plus complet. Les choses ne s’arrêtent toutefois à ces quelques éléments et Brian Reynolds a par exemple imaginé les concepts de points de vie et de puissance de feu pour les unités : un combat n’est plus nécessairement une victoire sur toute la ligne.
-            
+
             Enfin, et c’est le point de départ d’une longue tradition, Civilization II est rapidement complété par des extensions.
-            
+
             Civilization par Avalon Hill © Wayne&#039;s Books
             Toute la franchise est partie de ce jeu de plateau, un brin austère, distribué en 1980 © Wayne\'s Books
             Querelles sur les droits et accord à l’amiable
             Dans un premier temps, l’idée est de revenir sur le mode multijoueurs encore balbutiant. Nous l’avons dit, CivNet avait essuyé les premiers plâtres, mais malgré ce débroussaillage, MicroProse a encore beaucoup de travail pour rendre les choses plus attrayantes à ce niveau. D\'autant Civilization II a eu la judicieuse idée d’intégrer tous les outils pour la création de mods. Les développeurs décident donc de proposer leurs propres variations, sur le thème du jeu de base, et d’intégrer les meilleures idées de la communauté pour Conflicts in Civilization, sorti en 1996.
-            
+
             Sid Meier&#039;s Civilization © Moby Games
             Sid Meier&#039;s Civilization © Moby Games
             Civilization a été porté sur d\'innombrables plateformes : à gauche, sur SNES et à droite, sur PlayStation © Moby Games
-            
+
             À l’époque, il n’était pas question de DLC au sens contemporain du terme, et sans connexion Internet, la méthode la plus simple pour ajouter du contenu restait l’extension. Hélas, même sur un titre aussi réussi que Civilization II, nous n’étions pas à l’abri « d’égarements » de la part des éditeurs.
-            
+
             Ainsi, quelques mois après la première, Fantastic Worlds déboule déjà et, avec lui, des scénarios aussi variés que la colonisation de Mars ou une espèce de monde fantastique avec Elfes et Gobelins. Une extension vite oubliée par la communauté qui espérait certes des nouveautés, mais ne souhaitait pas forcément basculer dans un autre univers.
-            
+
             « Problème », le succès remporté par Civilization et sa suite a aiguisé les appétits. Si un accord avait été trouvé avec Avalon Hill afin que la franchise puisse prendre le nom du jeu de plateau, cette dernière y a vu un moyen d’adapter elle aussi sa création en jeu vidéo.
-            
+
             C’est ainsi que sort, en mars 1996, Advanced Civilization. La confrontation n’a toutefois pas lieu, Avalon Hill préférant coller autant que possible à son jeu de plateau. Ce n\'est clairement plus le cas avec Civilization: Call to Power édité cette fois par Activision, qui profite du flou entourant le rachat de MicroProse par Spectrum Holobyte.
-            
+
             Brian Reynolds © VentureBeat
             Brian Reynolds bien des années après son départ de MicroProse / Firaxis © VentureBeat
             Ce dernier ne disposant pas des droits nécessaires, Activision négocie avec Avalon Hill, acquiert la licence et sort ce fameux « Call to Power » dont le concept est un calque du Civilization de Sid Meier. MicroProse (qui a gardé son nom après la fusion avec Spectrum Holobyte) n’est évidemment pas « ravi, ravi » et rachète Hartland Trefoil, le studio derrière le jeu de plateau originel, celui de 1980.
-            
+
             Après moult menaces, procès et enrichissements personnels de multiples avocats, les deux sociétés trouvent un terrain d’entente. Activision a le droit de conserver le nom de Civilization pour le seul Call to Power, mais les droits de la licence reviennent, de manière plus générale, à MicroProse… enfin jusqu’au départ de Sid Meier, Jeff Briggs et Brian Reynolds.
-            
+
             Call to Power II © Activision
             Distribué en 2000 par Activision, Call to Power II n\'a jamais porté le nom de Civilization © Moby Games
             Vers Firaxis et au-delà…
             Cela commençait à être « la mode » à l’époque : sans doute fatigués par les contraintes créatives liées aux grosses structures, de plus en plus de développeurs « de renom » partent fonder leur propre studio. Sid Meier ne fait pas exception à la règle et crée Firaxis en mai 1996. Entouré des têtes pensantes du projet Civilization II, son idée est alors de concevoir un nouvel opus, sans aucune contrainte.
-            
+
             Problème : Firaxis n’a aucune propriété intellectuelle et la société ne peut donc pas s’appuyer sur le nom de Civilization pour son premier projet.
-            
+
             Sid Meier&#039;s Civilization &#039;stack of doom&#039; © CivFanatics
             L\'une des plus parfaites illustrations du "stack of doom", ces piles infinies d\'unités © CivFanatics
             C’est ainsi que Sid Meier’s Alpha Centauri voit le jour en février 1999. À la baguette, on retrouve logiquement Brian Reynolds alors que l’ensemble de la production est chapeauté par Sid Meier.
-            
+
             Le concept est identique à un Civilization, mais le jeu prend place dans le futur, sur - vous l’aurez deviné - Alpha du Centaure, l’étoile la plus proche de notre soleil. Malgré d’excellentes critiques et de multiples idées qui seront reprises par la suite – dont le système de frontières – le succès n’est pas exactement au rendez-vous. De l’aveu de ses créateurs, c’est le moins vendu des jeux « Civilization ».
-            
+
             Logiquement, Firaxis cherche donc à revenir sur « son » bébé. Le studio profite du rachat de Spectrum Holobyte par Hasbro Interactive, lequel ne semble pas plus intéressé que cela par les jeux vidéo de gestion et stratégie. Firaxis obtient ainsi le droit de créer « son » Civilization et le rachat d’Hasbro Interactive par Infogrames en janvier 2001 ne fait que confirmer la chose.
-            
+
             En octobre de la même année, Civilization III est commercialisé. S’il ajoute quelques nouveautés fort bien vues, ce troisième opus marque surtout une triste tendance : celle de distribuer un jeu qui aura besoin de son premier gros patch pour être vraiment jouable. Aujourd’hui, c’est devenu une habitude et, merci Internet, on appelle ça le patch day one .
-            
+
             Sid Meier&#039;s Civilization VI © Firaxis
             Le style plus « cartoon » de Civilization VI sera-t-il amené à durer ? © Firaxis
             La sortie, quelques mois plus tard, de deux extensions – Conquests puis Play the World – et l’arrivée de Civilization IV achèvent de mettre en place une routine chez Firaxis.
-            
+
             On sort d’abord un opus complet qui intègre de profondes modifications au gameplay, que l’on peaufine via une première extension avant d’aller encore plus loin avec la seconde. Un schéma que l’on retrouve en 2010 avec Civilization V et aujourd’hui encore sur le sixième opus… En attendant donc la confirmation que Firaxis œuvre sur le septième épisode.
-            
+
             « Stay tuned », Civilization est plus en forme que jamais !',
             'img' => 'https://conso-mag.com/wp-content/uploads/2019/12/civilization-vi-xbox-one-ps4.jpg',
             'category' => 'Société'
+            ],
+            ['title' => "Tomb Raider: plusieurs annonces en 2021 et le site anniversaire lancé",
+            'content' => 'Square Enix lance les festivités avec l\'ouverture du site des 25 ans de la licence et tease plusieurs annonces Tomb Raider pendant l\'année.
+            Le 25e anniversaire de Tomb Raider approche et Square Enix compte bien fêter ça en grande pompe.
+
+            Pour commencer les festivités, l’éditeur a lancé un site dédié à l’anniversaire de Lara Croft qui retracera l’histoire de l’archéologue en se concentrant sur un jeu par mois avec des archives, des interviews, des streams et bien plus encore.
+
+            Mais surtout, il tease des annonces autour de Tomb Raider en 2021, mais pas le jeu de Crystal Dynamics unifiant les timelines de l’ancienne et la nouvelle trilogie.
+
+            En attendant, Square Enix dévoile la jaquette du premier opus ré-imaginée au goût du jour par Brenoch Adams, officiant chez Crystal Dynamics depuis quelques années.
+
+            ',
+            'img' => 'https://store-images.s-microsoft.com/image/apps.6674.66252867926858756.3a7bf113-281b-4dec-9089-240261b0e96c.4ffb9287-3f5a-4d4a-8a1e-e4ea150abc78?mode=scale&q=90&h=1080&w=1920&format=jpg',
+            'category' => 'Action'
             ],
         ];
 

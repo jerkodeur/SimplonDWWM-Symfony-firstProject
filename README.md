@@ -3,6 +3,8 @@
 First Symfony project with Simplon - __Make a Blog__
 
 Begin to handle Symfony, by integrating a HTML blog template.
+![](./public/clean/assets/screenshot-header.png)
+[Voir le site](http://mybloginsymfony.herokuapp.com/)
 
 ### Theme
 Video Games
@@ -60,3 +62,7 @@ Video Games
 
 ### Services
 - Emails handler : [MailHog](https://github.com/mailhog/MailHog)
+
+__ENJOY__
+
+![](./public/clean/assets/screenshot-post.png)
