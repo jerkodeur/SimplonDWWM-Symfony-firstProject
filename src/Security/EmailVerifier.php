@@ -38,12 +38,8 @@ class EmailVerifier
         $context['expiresAtMessageData'] = $signatureComponents->getExpirationMessageData();
 
         $email->context($context);
-        try {
-            $this->mailer->send($email);
-        }
-        catch(TransportExceptionInterface $e) {
-            return $e->getMessage();
-        }
+
+        $this->mailer->send($email);
     }
 
     /**
