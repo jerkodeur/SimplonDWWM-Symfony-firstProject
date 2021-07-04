@@ -11,5 +11,7 @@
             S'il existe un compte correspondant à votre e-mail, un e-mail vient d'être envoyé contenant un lien que vous pouvez utiliser pour réinitialiser votre mot de passe. Ce lien expirera dans {{ resetToken.expirationMessageKey|trans(resetToken.expirationMessageData, 'ResetPasswordBundle') }}.
         </p>
         <p>Si vous ne recevez pas d'e-mail, veuillez vérifier votre dossier spam ou <a href="{{ path('app_forgot_password_request') }}">réessayer</a>.</p>
+        <a href="{{ path('post_home') }}" class="btn btn-sm btn-primary rounded" role="button">Accueil</a>
+        <a href="{{ path('app_login') }}" class="btn btn-sm btn-secondary rounded" role="button">Page de connexion</a>
     </div>
 {% endblock %}

@@ -242,131 +242,131 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
             'content' => '<p>En 2016 id Software revenait aux racines de la s&eacute;rie Doom avec un reboot jouissif, speed et d&eacute;licieusement bourrin qui remettait la licence au go&ucirc;t du jour. Tr&egrave;s bien accueilli par les joueurs et la critique, ID Software a mis rapidement en chantier une suite pour tenter de sublimer le retour en gr&acirc;ce de la franchise. Apr&egrave;s avoir d&eacute;j&agrave; renvoy&eacute; un bon paquet de cr&eacute;atures de lucifer d&rsquo;o&ugrave; elles viennent voici donc mes modestes impressions avec un peu de retard par rapport &agrave; la sortie du jeu.</p>
 
             <p>&nbsp;</p>
-            
+
             <h2>HISTOIRE</h2>
-            
+
             <p>N&#39;en d&eacute;plaise aux d&eacute;tracteurs de la franchise, le lore de Doom (oui il y en a un) n&#39;a jamais &eacute;t&eacute; aussi pr&eacute;sent que dans cet opus. De multiples portails dimensionnels se sont ouverts et vous devrez utiliser votre forteresse d&eacute;moniaque pour stopper l&#39;invasion et battre les pr&ecirc;tres de l&#39;enfer afin de lib&eacute;rer la terre de son emprise d&eacute;moniaque. Libre &agrave; vous de parfaire votre connaissance de l&#39;univers de la s&eacute;rie gr&acirc;ce au codex du jeu r&eacute;pertoriant le bestiaire, les lieux que vous visiterez ou encore l&#39;armement qui sera &agrave; votre disposition pour botter le train de ces supp&ocirc;ts de Satans. Pour les plus f&eacute;rus de l&#39;univers de Doom ou ceux qui souhaitent s&#39;y int&eacute;resser, vous serez aux anges. Il y a de la lecture, beaucoup de lecture. Dommage qu&#39;il n&#39;y a pas de voix off pour nous raconter tout &ccedil;a car c&#39;est tellement gargantuesque qu&#39;on est vite envahi par la fain&eacute;antise.</p>
-            
+
             <p>&nbsp;</p>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97dd286c250ae6e4ee3/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p>&nbsp;</p>
-            
+
             <h2><br />
             AMBIANCE</h2>
-            
+
             <p>Pour cette mouture 2020 sortie fin Mars, l&#39;intro g&eacute;niale nous met tout de suite dans l&#39;ambiance &agrave; base de gros riffs de guitare en accordage diabolique pour un opening extra, digne de la fin d&#39;un training montage de film d&#39;action des ann&eacute;es 80. Le Doom Slayer est de retour et &ccedil;a va faire mal, tr&egrave;s mal !</p>
-            
+
             <p>C&#39;est r&eacute;ussi c&ocirc;t&eacute; ambiance et direction artistiques. Grosses guitares, cr&eacute;atures d&eacute;moniaques ultra-agressives qui vont vous user physiquement apr&egrave;s vos sessions de jeu. Les niveaux sont&nbsp; gigantesques et on voit mal comment l&#39;enfer sur Terre pourrait &ecirc;tre pire sans compter qu&#39;une fois de plus, la bande-son sign&eacute;e Mick Gordon est une nouvelle fois excellente.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97dd286c261f4144215/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             GAMEPLAY</p>
-            
+
             <p>C&ocirc;t&eacute; gameplay les amateurs de la version 2016 seront ravis. Vous serez comme dans des chaussons d&egrave;s le d&eacute;but du jeu en constatant que vous pouvez toujours combiner d&eacute;placement rapide et un frag finalis&eacute; par un bon vieux glory kill des familles.</p>
-            
+
             <p>Le gameplay de fast-fps &agrave; encore gagn&eacute; en intensit&eacute; en vous faisant gagner de la vitesse avec un dash et l&#39;ajout de verticalit&eacute; par des phases d&#39;escalade, de nombreux trap&egrave;zes et des phases plateformes qui vous permettront de prendre de la hauteur dans les ar&egrave;nes de combat. Soyons honn&ecirc;tes, les campeurs aux fusils sniper n&#39;auront pas la place de s&#39;exprimer dans ce FPS. Le gameplay de Doom est revenu &agrave; la base de la s&eacute;rie. Vous devrez &ecirc;tre constamment en mouvement pour pouvoir nettoyer les zones de la carte.</p>
-            
+
             <p>Le Doom Slayer que vous incarnez aura &agrave; sa port&eacute;e de multiples am&eacute;liorations d&#39;armure, de comp&eacute;tences et de modification d&#39;armes avec la quantit&eacute; astronomique de possibilit&eacute;s &agrave; d&eacute;bloquer parfois dans des confrontations tout &agrave; fait optionnelles &agrave; r&eacute;aliser dans un temps limit&eacute; qui vous d&eacute;bloqueront des r&eacute;compenses. On se situe dans le haut du panier du genre FPS dans l&#39;aspect customisation de votre personnage. On est &agrave; la limite du FPS RPG avec un menu de customisation assez costaud &agrave; d&eacute;crypter au premier abord.</p>
-            
+
             <p>Pour vos combats contre ces cr&eacute;atures venues du plus profond de l&#39;enfer, les d&eacute;veloppeurs d&#39;ID Software vous ont concoct&eacute; de superbes ar&egrave;nes de combats dignes des meilleurs maps multijoueurs. Bourr&eacute;es de secrets en tout genre, de vies suppl&eacute;mentaires et de bonus &agrave; r&eacute;cup&eacute;rer. Certains seront accessibles gr&acirc;ce &agrave; l&#39;exploration, la r&eacute;solution de quelques puzzles et par des phases de plateforme bienvenues mais pas toujours faciles. Les amateurs de compl&eacute;tion a 100% seront ravis car les d&eacute;veloppeurs ont pouss&eacute; le curseur &agrave; fond avec une multitude de choses &agrave; r&eacute;cup&eacute;rer. Pi&egrave;ces Pretor, batteries sentinelles, cl&eacute;s Slayer, runes, secrets, codes de triche, pour terminer un niveau &agrave; fond il faudra parfois s&#39;y reprendre a plusieurs fois. Les niveaux&nbsp; ne sont pas non plus avares en tremplins et en acc&eacute;l&eacute;rateurs pour augmenter de nouveau votre vitesse de d&eacute;placement lors des joutes contre les monstres ou vous serez arm&eacute;s jusqu&#39;aux dents.</p>
-            
+
             <p>L&#39;armement est vari&eacute; et inclut bien s&ucirc;r les standards de la s&eacute;rie comme le shotgun et la tron&ccedil;onneuse et vous invite &agrave; utiliser chaque arme pour venir &agrave; bout de chaque cr&eacute;atures sensibles &agrave; diff&eacute;rentes munitions: grenades, plasma, roquettes etc.. Chacune dispose d&#39;un point faible et le jeu vous force &agrave; varier les plaisirs. La profondeur et les possibilit&eacute;s de gameplay sont nombreuses. Pour jouer comme un v&eacute;ritable pro gamer, il vous faudra un long temps d&#39;apprentissage. Le jeu en vaut la chandelle car le ballet macabre du Doom Slayer peut &ecirc;tre absolument magnifique lorsqu&#39;il est parfaitement ma&icirc;tris&eacute; par le joueur. Les glory kills, la tron&ccedil;onneuse et l&#39;utilisation du lance-flammes vous rendront divers bonus. Armure, vie ou munitions. Ma&icirc;triser cette m&eacute;canique est essentiel pour&nbsp; vous assurer la victoire dans les combats.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97ed286c23c0a3e6bdf/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             TECHNIQUE</p>
-            
+
             <p>Techniquement parlant le titre ne d&eacute;&ccedil;oit pas, une nouvelle fois le titre est rapide, ultra-fluide y compris dans sa version PS4 standard et s&#39;offre m&ecirc;me le luxe d&#39;apporter un peu de nouveaut&eacute; par un c&ocirc;t&eacute; contemplatif pour la premi&egrave;re fois dans la s&eacute;rie avec beaucoup de d&eacute;cors en ext&eacute;rieur. M&ecirc;me lors de combats charg&eacute;s en mobs, en rafales de tirs de toutes parts, aucun ralentissement n&#39;est &agrave; d&eacute;plorer. Le moteur de jeu tient la route et ne souffre &agrave; aucun moment.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97d3e4546588e497347/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             CONCLUSION</p>
-            
+
             <p>Pour terminer sur ces impressions diaboliques le titre vous proposera 15 a 20h de dur&eacute;e de vie. Disposant d&#39;une difficult&eacute; et d&#39;une exigence assez &eacute;lev&eacute;e qui ne sera pas au go&ucirc;t de tout le monde, le jeu saura ravir les fans de la s&eacute;rie. Pour les plus novices, il serait do</p>
-            
+
             <p>En 2016 id Software revenait aux racines de la s&eacute;rie Doom avec un reboot jouissif, speed et d&eacute;licieusement bourrin qui remettait la licence au go&ucirc;t du jour. Tr&egrave;s bien accueilli par les joueurs et la critique, ID Software a mis rapidement en chantier une suite pour tenter de sublimer le retour en gr&acirc;ce de la franchise. Apr&egrave;s avoir d&eacute;j&agrave; renvoy&eacute; un bon paquet de cr&eacute;atures de lucifer d&rsquo;o&ugrave; elles viennent voici donc mes modestes impressions avec un peu de retard par rapport &agrave; la sortie du jeu.</p>
-            
+
             <p>&nbsp;</p>
-            
+
             <h2>HISTOIRE</h2>
-            
+
             <p>N&#39;en d&eacute;plaise aux d&eacute;tracteurs de la franchise, le lore de Doom (oui il y en a un) n&#39;a jamais &eacute;t&eacute; aussi pr&eacute;sent que dans cet opus. De multiples portails dimensionnels se sont ouverts et vous devrez utiliser votre forteresse d&eacute;moniaque pour stopper l&#39;invasion et battre les pr&ecirc;tres de l&#39;enfer afin de lib&eacute;rer la terre de son emprise d&eacute;moniaque. Libre &agrave; vous de parfaire votre connaissance de l&#39;univers de la s&eacute;rie gr&acirc;ce au codex du jeu r&eacute;pertoriant le bestiaire, les lieux que vous visiterez ou encore l&#39;armement qui sera &agrave; votre disposition pour botter le train de ces supp&ocirc;ts de Satans. Pour les plus f&eacute;rus de l&#39;univers de Doom ou ceux qui souhaitent s&#39;y int&eacute;resser, vous serez aux anges. Il y a de la lecture, beaucoup de lecture. Dommage qu&#39;il n&#39;y a pas de voix off pour nous raconter tout &ccedil;a car c&#39;est tellement gargantuesque qu&#39;on est vite envahi par la fain&eacute;antise.</p>
-            
+
             <p>&nbsp;</p>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97dd286c250ae6e4ee3/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p>&nbsp;</p>
-            
+
             <h2><br />
             AMBIANCE</h2>
-            
+
             <p>Pour cette mouture 2020 sortie fin Mars, l&#39;intro g&eacute;niale nous met tout de suite dans l&#39;ambiance &agrave; base de gros riffs de guitare en accordage diabolique pour un opening extra, digne de la fin d&#39;un training montage de film d&#39;action des ann&eacute;es 80. Le Doom Slayer est de retour et &ccedil;a va faire mal, tr&egrave;s mal !</p>
-            
+
             <p>C&#39;est r&eacute;ussi c&ocirc;t&eacute; ambiance et direction artistiques. Grosses guitares, cr&eacute;atures d&eacute;moniaques ultra-agressives qui vont vous user physiquement apr&egrave;s vos sessions de jeu. Les niveaux sont&nbsp; gigantesques et on voit mal comment l&#39;enfer sur Terre pourrait &ecirc;tre pire sans compter qu&#39;une fois de plus, la bande-son sign&eacute;e Mick Gordon est une nouvelle fois excellente.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97dd286c261f4144215/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             GAMEPLAY</p>
-            
+
             <p>C&ocirc;t&eacute; gameplay les amateurs de la version 2016 seront ravis. Vous serez comme dans des chaussons d&egrave;s le d&eacute;but du jeu en constatant que vous pouvez toujours combiner d&eacute;placement rapide et un frag finalis&eacute; par un bon vieux glory kill des familles.</p>
-            
+
             <p>Le gameplay de fast-fps &agrave; encore gagn&eacute; en intensit&eacute; en vous faisant gagner de la vitesse avec un dash et l&#39;ajout de verticalit&eacute; par des phases d&#39;escalade, de nombreux trap&egrave;zes et des phases plateformes qui vous permettront de prendre de la hauteur dans les ar&egrave;nes de combat. Soyons honn&ecirc;tes, les campeurs aux fusils sniper n&#39;auront pas la place de s&#39;exprimer dans ce FPS. Le gameplay de Doom est revenu &agrave; la base de la s&eacute;rie. Vous devrez &ecirc;tre constamment en mouvement pour pouvoir nettoyer les zones de la carte.</p>
-            
+
             <p>Le Doom Slayer que vous incarnez aura &agrave; sa port&eacute;e de multiples am&eacute;liorations d&#39;armure, de comp&eacute;tences et de modification d&#39;armes avec la quantit&eacute; astronomique de possibilit&eacute;s &agrave; d&eacute;bloquer parfois dans des confrontations tout &agrave; fait optionnelles &agrave; r&eacute;aliser dans un temps limit&eacute; qui vous d&eacute;bloqueront des r&eacute;compenses. On se situe dans le haut du panier du genre FPS dans l&#39;aspect customisation de votre personnage. On est &agrave; la limite du FPS RPG avec un menu de customisation assez costaud &agrave; d&eacute;crypter au premier abord.</p>
-            
+
             <p>Pour vos combats contre ces cr&eacute;atures venues du plus profond de l&#39;enfer, les d&eacute;veloppeurs d&#39;ID Software vous ont concoct&eacute; de superbes ar&egrave;nes de combats dignes des meilleurs maps multijoueurs. Bourr&eacute;es de secrets en tout genre, de vies suppl&eacute;mentaires et de bonus &agrave; r&eacute;cup&eacute;rer. Certains seront accessibles gr&acirc;ce &agrave; l&#39;exploration, la r&eacute;solution de quelques puzzles et par des phases de plateforme bienvenues mais pas toujours faciles. Les amateurs de compl&eacute;tion a 100% seront ravis car les d&eacute;veloppeurs ont pouss&eacute; le curseur &agrave; fond avec une multitude de choses &agrave; r&eacute;cup&eacute;rer. Pi&egrave;ces Pretor, batteries sentinelles, cl&eacute;s Slayer, runes, secrets, codes de triche, pour terminer un niveau &agrave; fond il faudra parfois s&#39;y reprendre a plusieurs fois. Les niveaux&nbsp; ne sont pas non plus avares en tremplins et en acc&eacute;l&eacute;rateurs pour augmenter de nouveau votre vitesse de d&eacute;placement lors des joutes contre les monstres ou vous serez arm&eacute;s jusqu&#39;aux dents.</p>
-            
+
             <p>L&#39;armement est vari&eacute; et inclut bien s&ucirc;r les standards de la s&eacute;rie comme le shotgun et la tron&ccedil;onneuse et vous invite &agrave; utiliser chaque arme pour venir &agrave; bout de chaque cr&eacute;atures sensibles &agrave; diff&eacute;rentes munitions: grenades, plasma, roquettes etc.. Chacune dispose d&#39;un point faible et le jeu vous force &agrave; varier les plaisirs. La profondeur et les possibilit&eacute;s de gameplay sont nombreuses. Pour jouer comme un v&eacute;ritable pro gamer, il vous faudra un long temps d&#39;apprentissage. Le jeu en vaut la chandelle car le ballet macabre du Doom Slayer peut &ecirc;tre absolument magnifique lorsqu&#39;il est parfaitement ma&icirc;tris&eacute; par le joueur. Les glory kills, la tron&ccedil;onneuse et l&#39;utilisation du lance-flammes vous rendront divers bonus. Armure, vie ou munitions. Ma&icirc;triser cette m&eacute;canique est essentiel pour&nbsp; vous assurer la victoire dans les combats.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97ed286c23c0a3e6bdf/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             TECHNIQUE</p>
-            
+
             <p>Techniquement parlant le titre ne d&eacute;&ccedil;oit pas, une nouvelle fois le titre est rapide, ultra-fluide y compris dans sa version PS4 standard et s&#39;offre m&ecirc;me le luxe d&#39;apporter un peu de nouveaut&eacute; par un c&ocirc;t&eacute; contemplatif pour la premi&egrave;re fois dans la s&eacute;rie avec beaucoup de d&eacute;cors en ext&eacute;rieur. M&ecirc;me lors de combats charg&eacute;s en mobs, en rafales de tirs de toutes parts, aucun ralentissement n&#39;est &agrave; d&eacute;plorer. Le moteur de jeu tient la route et ne souffre &agrave; aucun moment.</p>
-            
+
             <h2>&nbsp;</h2>
-            
+
             <p><img alt=" " src="https://images.lindependant.fr/api/v1/images/view/5f58b97d3e4546588e497347/full/image.jpg?v=1" /></p>
-            
+
             <p>id SOFTWARE, Bethesda Softworks</p>
-            
+
             <p><br />
             CONCLUSION</p>
-            
+
             <p>Pour terminer sur ces impressions diaboliques le titre vous proposera 15 a 20h de dur&eacute;e de vie. Disposant d&#39;une difficult&eacute; et d&#39;une exigence assez &eacute;lev&eacute;e qui ne sera pas au go&ucirc;t de tout le monde, le jeu saura ravir les fans de la s&eacute;rie. Pour les plus novices, il serait dommage de vous g&acirc;cher le plaisir de jeu en ne baissant pas le niveau de difficult&eacute; le temps de se familiariser avec les bases. Une fois le solo boucl&eacute;, le titre dispose d&#39;une solide rejouablit&eacute; si vous souhaitez le terminer &agrave; 100%. Un battlemode 2v1 assez simpliste vous attend pour jouer en ligne et du contenu suppl&eacute;mentaire est r&eacute;guli&egrave;rement ajout&eacute; par des mises &agrave; jour avec notamment des d&eacute;fis quotidiens a remplir. Cet opus 2020 est extr&ecirc;mement r&eacute;ussi et propose un vrai challenge dans sa difficult&eacute; maximale ! Un FPS a rarement &eacute;t&eacute; aussi g&eacute;n&eacute;reux. Le pari de proposer une suite am&eacute;lior&eacute;e en tout point est rempli tant les am&eacute;liorations sont nombreuses. Doom Eternal s&#39;impose comme une valeur s&ucirc;re du shooter g&eacute;n&eacute;reux et bourrin qui mise tout sur sa campagne solo qui s&#39;installe sur tr&ocirc;ne du fast FPS faute de concurrence sur ce segment. Esp&eacute;rons quand m&ecirc;me pour le bien du genre, que son r&egrave;gne ne soit pas &eacute;ternel.</p>
-            
+
             <p>mmage de vous g&acirc;cher le plaisir de jeu en ne baissant pas le niveau de difficult&eacute; le temps de se familiariser avec les bases. Une fois le solo boucl&eacute;, le titre dispose d&#39;une solide rejouablit&eacute; si vous souhaitez le terminer &agrave; 100%. Un battlemode 2v1 assez simpliste vous attend pour jouer en ligne et du contenu suppl&eacute;mentaire est r&eacute;guli&egrave;rement ajout&eacute; par des mises &agrave; jour avec notamment des d&eacute;fis quotidiens a remplir. Cet opus 2020 est extr&ecirc;mement r&eacute;ussi et propose un vrai challenge dans sa difficult&eacute; maximale ! Un FPS a rarement &eacute;t&eacute; aussi g&eacute;n&eacute;reux. Le pari de proposer une suite am&eacute;lior&eacute;e en tout point est rempli tant les am&eacute;liorations sont nombreuses. Doom Eternal s&#39;impose comme une valeur s&ucirc;re du shooter g&eacute;n&eacute;reux et bourrin qui mise tout sur sa campagne solo qui s&#39;installe sur tr&ocirc;ne du fast FPS faute de concurrence sur ce segment. Esp&eacute;rons quand m&ecirc;me pour le bien du genre, que son r&egrave;gne ne soit pas &eacute;ternel.</p>',
             'img' => 'https://thenerdy.com/wp-content/uploads/2019/06/E3-2019-Bethesda-Doom-Eternal-Trailer-07.jpg',
             'category' => 'Horreur'

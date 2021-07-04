@@ -46,6 +46,8 @@ Video Games
 ### Used Bundles
 
 - symfonycasts/verify-email-bundle
+- composer require symfony/mailer
+- composer require symfony/mailjet-mailer
 - symfonycasts/reset-password-bundle
 - antishov/doctrine-extensions-bundle (_Annotations manager_)
 - friendsofsymfony/ckeditor-bundle (_WYSIWYG editor_)

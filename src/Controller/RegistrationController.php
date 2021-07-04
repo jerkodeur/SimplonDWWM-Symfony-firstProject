@@ -38,6 +38,7 @@ class RegistrationController extends AbstractController
                     $form->get('plainPassword')->getData()
                 )
             );
+            $user->setRoles(["ROLE_USER"]);
 
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($user);
@@ -48,12 +49,12 @@ class RegistrationController extends AbstractController
                 'app_verify_email',
                 $user,
                 (new TemplatedEmail())
-                    ->from(new Address('no-reply@company.com', 'default'))
                     ->to($user->getEmail())
-                    ->subject('Please Confirm your Email')
+                    ->subject('Merci de confirmer votre E-mail')
                     ->htmlTemplate('registration/confirmation_email.html.twig')
             );
             // do anything else you need here, like send an email
+            $this->addFlash('success', "Un e-mail a été envoyé à l'adresse " . $user->getEmail() . ". Votre compte sera actif après confirmation de votre adresse e-mail.");
 
             return $this->redirectToRoute('post_home');
         }
@@ -78,7 +79,7 @@ class RegistrationController extends AbstractController
         }
 
         // @TODO Change the redirect on success and handle or remove the flash message in your templates
-        $this->addFlash('success', 'Your email address has been verified.');
+        $this->addFlash('success', 'Votre adresse e-mail a bien été vérifiée.');
 
         return $this->redirectToRoute('post_home');
     }

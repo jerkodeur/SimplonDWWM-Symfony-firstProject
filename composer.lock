@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5de80762879abd16a29183c381cfe63b",
+    "content-hash": "afc25e11a5f5cc526418de6c8418824a",
     "packages": [
         {
             "name": "antishov/doctrine-extensions-bundle",
@@ -4914,12 +4914,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mailer.git",
-                "reference": "6dca77f3d0038edb17bcb5970f744a516578d586"
+                "reference": "ec763a6d903f646ac92b7c29f32b0335048bebe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/6dca77f3d0038edb17bcb5970f744a516578d586",
-                "reference": "6dca77f3d0038edb17bcb5970f744a516578d586",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/ec763a6d903f646ac92b7c29f32b0335048bebe8",
+                "reference": "ec763a6d903f646ac92b7c29f32b0335048bebe8",
                 "shasum": ""
             },
             "require": {
@@ -4939,7 +4939,6 @@
                 "symfony/http-client-contracts": "^1.1|^2",
                 "symfony/messenger": "^4.4|^5.0|^6.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -4982,7 +4981,73 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T12:56:33+00:00"
+            "time": "2021-06-30T13:58:03+00:00"
+        },
+        {
+            "name": "symfony/mailjet-mailer",
+            "version": "5.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mailjet-mailer.git",
+                "reference": "2f1e1b05d4ccd607df96771ce0bd539ab1ba426e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mailjet-mailer/zipball/2f1e1b05d4ccd607df96771ce0bd539ab1ba426e",
+                "reference": "2f1e1b05d4ccd607df96771ce0bd539ab1ba426e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/mailer": "^4.4|^5.0|^6.0"
+            },
+            "require-dev": {
+                "symfony/http-client": "^4.4|^5.0|^6.0"
+            },
+            "default-branch": true,
+            "type": "symfony-bridge",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Mailer\\Bridge\\Mailjet\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Mailjet Mailer Bridge",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/mailjet-mailer/tree/5.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-05-26T17:43:50+00:00"
         },
         {
             "name": "symfony/mime",
@@ -7648,12 +7713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bundle.git",
-                "reference": "2aebe44a60887244fb2b21a17b50045ed3fabd2b"
+                "reference": "d09c96bda1f648f9fe557418bf1198db9b15a221"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/2aebe44a60887244fb2b21a17b50045ed3fabd2b",
-                "reference": "2aebe44a60887244fb2b21a17b50045ed3fabd2b",
+                "url": "https://api.github.com/repos/symfony/twig-bundle/zipball/d09c96bda1f648f9fe557418bf1198db9b15a221",
+                "reference": "d09c96bda1f648f9fe557418bf1198db9b15a221",
                 "shasum": ""
             },
             "require": {
@@ -7685,7 +7750,6 @@
                 "symfony/web-link": "^4.4|^5.0|^6.0",
                 "symfony/yaml": "^4.4|^5.0|^6.0"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
@@ -7728,7 +7792,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-26T17:43:50+00:00"
+            "time": "2021-07-02T14:33:44+00:00"
         },
         {
             "name": "symfony/validator",
@@ -10825,7 +10889,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "symfony/twig-bundle": 20,
         "symfony/browser-kit": 20,
         "symfony/css-selector": 20,
         "symfony/debug-bundle": 20,

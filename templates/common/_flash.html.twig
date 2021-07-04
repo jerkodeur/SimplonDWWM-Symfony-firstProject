@@ -6,7 +6,7 @@
                     <div class="alert alert-success" role="alert">{{ flashSuccess }}</div>
                 {% endfor %}
                 {% for flashError in app.flashes('error') %}
-                    <div class="alert alert-error" role="alert">{{ flashError }}</div>
+                    <div class="alert alert-danger" role="alert">{{ flashError }}</div>
                 {% endfor %}
             </div>
         </div>
@@ -18,6 +18,6 @@
         const flashDiv = document.getElementById('flash-container')
         setTimeout(function(){
             flashDiv.style.display = "none"
-            }, 3000);
+            }, 4000);
     </script>
 {% endblock %}
