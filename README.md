@@ -2,7 +2,8 @@
 
 First Symfony project with Simplon - __Make a Blog__
 
-Begin to handle Symfony, by integrating a HTML blog template.
+Begin to handle Symfony, by integrating a HTML blog template.  
+
 ![](./public/clean/assets/screenshot-header.png)
 [Voir le site](http://mybloginsymfony.herokuapp.com/)
 
