@@ -4,6 +4,8 @@
 
     {% block main %}
         <div class="text-light">
+            <h1 class="mb-4">{{ 'admin_post_edit' in app.request.get('_route') ? 'Modification d\'un article' : 'Ajout d\'un nouvel article '}}</h1>
+            <hr />
             {{ form(form) }}
         </div>
     {% endblock %}

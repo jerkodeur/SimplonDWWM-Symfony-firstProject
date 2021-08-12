@@ -17,7 +17,7 @@ class PostController extends AbstractController
     {
         return $this->render('post/index.html.twig', [
             'posts' => $postRepository->findLastPosts(),
-            'oldPosts' => $postRepository->findOldPosts()
+            'oldPosts' => array_reverse($postRepository->findOldPosts())
         ]);
     }
 

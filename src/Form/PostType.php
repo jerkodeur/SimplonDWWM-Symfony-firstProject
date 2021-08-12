@@ -32,10 +32,11 @@ class PostType extends AbstractType
                 'label_attr' => ['class' => 'mb-1'],
             ])
             ->add('category', EntityType::class, [
+                'label' => 'Catégorie',
                 'class' => Category::class,
                 'row_attr' => ['class' => 'my-2'],
                 'label_attr' => ['class' => 'mb-1'],
-                'placeholder' => 'Choisir une sous-catégorie',
+                'placeholder' => 'Choisir une catégorie',
                 'choices' => null
                 ])
             ->add('active', CheckboxType::class, [

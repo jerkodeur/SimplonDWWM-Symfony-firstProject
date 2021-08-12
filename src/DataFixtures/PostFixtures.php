@@ -480,6 +480,33 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
             'img' => 'https://store-images.s-microsoft.com/image/apps.6674.66252867926858756.3a7bf113-281b-4dec-9089-240261b0e96c.4ffb9287-3f5a-4d4a-8a1e-e4ea150abc78?mode=scale&q=90&h=1080&w=1920&format=jpg',
             'category' => 'Action'
             ],
+            ['title' => "Nouveau mystère pour RED DEAD REDEMPTION 2",
+            'content' => "Red Dead Redemption 2 a fait ses débuts en 2018. Trois ans après sa sortie, le titre signé Rockstar Games continue de faire parler de lui. Au-delà de son gameplay, il est aussi connu pour ses glitches qui altèrent parfois certains aspects du jeu. Quelques mois après son lancement, des gamers ont par exemple découvert un glitch qui montrait des chevaux en train de prendre feu spontanément.
+
+            Un autre glitch impliquait le personnage d’Arthur Morgan. Après avoir jeté une carcasse de canard, les joueurs la voyaient flotter dans le ciel sans qu’ils ne puissent expliquer pourquoi. Aujourd’hui, Red Dead Redemption 2 est de nouveau au centre de toutes les discussions.
+
+            Un feu de camp dans Red Dead Redemption 2 – crédits Rockstar
+
+            Sur Reddit, certains joueurs se demandent s’ils ont découvert un nouveau glitch dans le jeu ou un fantôme.
+
+            A lire aussi : Red Dead Online : la mise à jour estivale Blood Money arrive le 13 juillet
+
+            Un cavalier mystérieux
+            Un Redditor du nom de C4SOx a publié un extrait vidéo d’une rencontre étrange qu’il a faite dans le jeu. Ce dernier a croisé la route d’un cavalier solitaire qui l’attendait à l’entrée d’un pont. Sur les images partagées par C4SOx, on peut voir le cavalier avancé vers lui avant de disparaître dans le brouillard.
+
+            Cette apparition a effrayé le cheval du joueur que l’on peut entendre dire « relax. » Après sa rencontre avec ce cavalier mystérieux, C4SOx s’est rendu sur Reddit pour demander l’avis des autres joueurs. Malheureusement, ils ne savaient pas non plus de quoi il s’agissait.
+
+            A lire aussi : Red Dead Redemption 2 : il crée une carte pour l’aider à “atteindre les 100%”
+
+            Un glitch ou un fantôme ?
+            Certains gamers pensent qu’il s’agit d’un énième glitch. D’autres croient que cette apparition fait partie du gameplay. Les scénarios de Red Dead Redemption 2 tendent à confirmer cette deuxième hypothèse. Dans le jeu, les marécages sont connus pour être les terrains de jeu favoris des fantômes.
+
+            Les joueurs peuvent faire la rencontre de nombreux esprits, comme celui d’Agnes Dowd, en explorant le bayou. Et le cavalier rencontré par C4SOx se trouvait à proximité d’un marécage. Qui plus est, les cavaliers aux allures de fantômes ne sont pas rares dans Red Dead Redemption 2. Par exemple, un personnage du nom de Kieran Duffy peut être aperçu dans le jeu avec sa tête entre ses mains. Il aurait été décapité lors de la mission « Horseman, Apocalypse. »
+
+            Tout semble donc indiquer que ce cavalier mystérieux est un élément surnaturel qui attendait juste d’être découvert.",
+            'img' => 'https://top-mmo.fr/wp-content/uploads/2021/04/trailer_screen16.jpg',
+            'category' => 'Action'
+            ],
         ];
 
         foreach($posts as $index => $post) {

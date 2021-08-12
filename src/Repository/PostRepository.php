@@ -20,7 +20,7 @@ class PostRepository extends ServiceEntityRepository
         parent::__construct($registry, Post::class);
     }
 
-    public function findOldPosts(int $nb = 4) {
+    public function findOldPosts(int $nb = 5) {
         $em = $this->getEntityManager();
 
         $query = $em->createQuery(
@@ -35,7 +35,7 @@ class PostRepository extends ServiceEntityRepository
         return $query->getResult();
     }
 
-    public function findLastPosts(int $nb = 5)
+    public function findLastPosts(int $nb = 6)
     {
         return $this->createQueryBuilder('p')
             ->andWhere('p.active = :active')
