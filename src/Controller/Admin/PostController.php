@@ -21,7 +21,7 @@ class PostController extends AbstractController
         $this->em = $em;
     }
 
-    #[Route("/list" , name: 'list')]
+    #[Route("/list", name: 'list')]
     public function postList(PostRepository $postRepository): Response
     {
         return $this->render('admin/post/index.html.twig', [
@@ -54,7 +54,7 @@ class PostController extends AbstractController
     {
         $form = $this->createForm(PostType::class, $post);
         $form->handleRequest($request);
-        if($form->isSubmitted() && $form->isValid()) {
+        if ($form->isSubmitted() && $form->isValid()) {
             $this->em->persist($post);
             $this->em->flush();
             $this->addFlash('success', 'L\'article à bien été mise à jour');
@@ -67,7 +67,7 @@ class PostController extends AbstractController
         ]);
     }
 
-    #[Route('/activate/{id<\d+>}', name: 'activate', methods: ['GET','POST'])]
+    #[Route('/activate/{id<\d+>}', name: 'activate', methods: ['GET', 'POST'])]
     public function Activate(Request $request, Post $post): Response
     {
         $post->setActive(!$post->getActive());
@@ -81,10 +81,14 @@ class PostController extends AbstractController
     #[Route('/delete/{id<\d+>}', name: 'delete')]
     public function deletePost(Post $post): Response
     {
-        $this->em->remove($post);
-        $this->em->flush();
+        if (!$this->isGranted('ROLE_SUPER_ADMIN')) {
+            $this->addFlash('error', 'Vous ne disposez pas des droits pour supprimer un article !');
+        } else {
+            $this->em->remove($post);
+            $this->em->flush();
 
-        $this->addFlash('success', 'L\'article à bien été supprimé');
+            $this->addFlash('success', 'L\'article à bien été supprimé');
+        }
 
         return $this->redirectToRoute('admin_post_list');
     }

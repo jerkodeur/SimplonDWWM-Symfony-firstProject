@@ -34,7 +34,11 @@
             <div id="layoutSidenav_content" class="bg-secondary">
                 <main>
                     <div class="container pt-5">
-                    {# Main #}
+                        {# Main #}
+                        {% include "common/_flash.html.twig" %}
+                        {% if not is_granted('ROLE_SUPER_ADMIN') %}
+                            {% include "admin/common/_restricted.html.twig" %}
+                        {% endif %}
                         {% block main %}{% endblock %}
                     </div>
                 </main>

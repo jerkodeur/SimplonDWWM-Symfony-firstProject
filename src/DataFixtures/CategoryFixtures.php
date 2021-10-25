@@ -12,18 +12,18 @@ class CategoryFixtures extends Fixture
     {
         $categories = [
             'Action',
-            'Fantasy',
+            'Fantaisie',
             'Société',
             'FPS',
             'Historique',
             'Horreur'
         ];
 
-        foreach($categories as $index => $cat_title) {
+        foreach($categories as $cat_title) {
             $category = new Category();
-            $category->setName($categories[$index]);
+            $category->setName($cat_title);
 
-            $this->addReference($categories[$index], $category);
+            $this->addReference($cat_title, $category);
 
             $manager->persist($category);
         }

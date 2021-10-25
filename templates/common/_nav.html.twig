@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto py-4 py-lg-0">
                 <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('post_home') }}>Accueil</a></li>
-                {% if is_granted('ROLE_ADMIN') %}
+                {% if is_granted('ROLE_ADMIN') or is_granted('ROLE_SUPER_ADMIN') %}
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href={{ path('admin_post_list') }}>Administrer le contenu</a></li>
                 {% endif %}
                 {% if not is_granted("ROLE_USER") %}
