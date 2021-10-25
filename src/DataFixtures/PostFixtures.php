@@ -150,7 +150,7 @@ class PostFixtures extends Fixture implements DependentFixtureInterface
 
             <p>N&rsquo;oubliez pas qu&rsquo;il vaut la peine de vous reposer dans votre lit avant de vous battre et de retrouver la sant&eacute; qui vous manque.</p>',
             'img' => 'https://blog.cloudware.bg/wp-content/uploads/2021/05/MicrosoftTeams-image-2.jpg',
-            'category' => 'Fantasy'
+            'category' => 'Fantaisie'
             ],
             ['title' => "On a testé… « Assassin’s Creed : Valhalla », le jeu d’exploration nordique qui n’est pas à l’ouest",
             'content' => '<p>La saga d&rsquo;Ubisoft, jusqu&rsquo;ici embourb&eacute;e dans ses automatismes, prend un nouveau d&eacute;part et se r&eacute;v&egrave;le plus prenante (et belle) que jamais.</p>
