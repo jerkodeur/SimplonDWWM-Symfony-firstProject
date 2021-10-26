@@ -30,7 +30,7 @@ Begin to handle Symfony, by integrating a HTML blog template.
 - Split views in blocks to avoid repetitions
 - Define the different required routes
 - Transit the datas between controllers and views
-- Create Database through Symfony
+- Create Database with Symfony and doctrine
 - Handle the users
   - Create a new User controller
   - Configure the routes for log-in, log-out, register, password lost
@@ -48,8 +48,11 @@ Begin to handle Symfony, by integrating a HTML blog template.
   - Import an admin front template
   - Securize the admin routes
   - Make the CRUD administration
+- Security
+  - Configure 3 roles in the project [USER, ADMIN and SUPER_ADMIN]
+  - Handle authorizations depending to the user's role
 - Configure Heroku for hosting the project
-  - Add mailJet to handle mails
+  - Add mailJet to handle mails in production
 
 [Back to top](#simplondwwm-symfony-videogameblog)
 # Install the project
@@ -106,7 +109,7 @@ Connect to the page http://localhost:8000/ at localhost
 # Connection to the blog
 You can connect to the application with identifiers below:
 
-> user@user.fr `Password:` _password12345_
+> user@user.fr `Password:` _password12345_<br />
 > admin@admin.fr `Password:` _password12345_
 
 # Used technologies
